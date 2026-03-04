@@ -1,0 +1,26 @@
+{
+  "url": "https://rsddownload-secure.lenovo.com/RecoveryQcom_KIA_8936_V1_S3_pmethod1_phone_connect2.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T041728Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c1244573e68241f72d4281a6f807024fe2df675728e867e7c1bf544dbf73302d",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Wed, 04 Mar 2026 05:07:12 GMT",
+    "Last-Modified": "Wed, 15 Nov 2023 05:51:25 GMT",
+    "Content-Encoding": "br",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-meta-sha256": "20a3d099c222f83085465e98913c34829245891fa6c8d27d1ff8f7b4a2c4bf56",
+    "x-amz-meta-s3b-last-modified": "20231115T054607Z",
+    "Server": "AmazonS3",
+    "ETag": "W/\"88b676a9aa3754c627fafaa817f6afcf\"",
+    "Vary": "accept-encoding",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 33c81f2d1329ae561e4982ed7fc464d4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "DFW57-P2",
+    "X-Amz-Cf-Id": "r0THiMiXQnqsJzzqFcV6p2MNnHk5UO88zSRuEmngAllrC3ehYsX1ug==",
+    "X-XSS-Protection": "1; mode=block",
+    "Content-Security-Policy": "\"default-src https: wss: data: 'unsafe-inline' 'unsafe-eval';frame-ancestors 'self'\"",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  }
+}

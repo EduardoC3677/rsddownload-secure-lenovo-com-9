@@ -1,0 +1,6 @@
+https://download.lenovo.com/lsa/Releases/Plugins/PluginIcons/messenger.png	messenger.png
+https://download.lenovo.com/lsa/Releases/Plugins/PluginIcons/manage phone.png	manage phone.png
+https://download.lenovo.com/lsa/Releases/Plugins/PluginIcons/forum.png	forum.png
+https://download.lenovo.com/lsa/Releases/Plugins/PluginIcons/flash.png	flash.png
+https://download.lenovo.com/lsa/Releases/Plugins/PluginIcons/tips.png	tips.png
+https://download.lenovo.com/lsa/ma.apk	ma.apk

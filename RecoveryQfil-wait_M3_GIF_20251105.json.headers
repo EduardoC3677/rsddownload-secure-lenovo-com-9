@@ -1,0 +1,26 @@
+{
+  "url": "https://rsddownload-secure.lenovo.com/RecoveryQfil-wait_M3_GIF_20251105.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T050251Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604799&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5dee814687f278b6410779962b126f3a5a56562346ecaef339a2de6140360f89",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Wed, 04 Mar 2026 05:07:11 GMT",
+    "Last-Modified": "Wed, 05 Nov 2025 07:05:05 GMT",
+    "Content-Encoding": "br",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-meta-checksum-sha256": "ee9fede65d88bde11a2120d5325e9e2500c171e1706f49225bf3d222de0dc2ce",
+    "x-amz-meta-s3b-last-modified": "20251105T062132Z",
+    "Server": "AmazonS3",
+    "ETag": "W/\"d0cfde2d4dc5a2c89fa63420465db2d6\"",
+    "Vary": "accept-encoding",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 5763ec77b34343e41dd40ceaf37f4cd8.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "DFW57-P2",
+    "X-Amz-Cf-Id": "l2WOJpWO5R3IwM0UOI7_yApg1oNEQYUXu5m7Oj-RSk54jJsOHW4QjQ==",
+    "X-XSS-Protection": "1; mode=block",
+    "Content-Security-Policy": "\"default-src https: wss: data: 'unsafe-inline' 'unsafe-eval';frame-ancestors 'self'\"",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  }
+}

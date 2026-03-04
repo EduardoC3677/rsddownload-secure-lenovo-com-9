@@ -1,0 +1,263 @@
+{
+	"Name": "FastBoot Devices",
+	"UseCase": "LMSA_Rescue",
+	"Steps": [	
+	{
+		"Name": "Connect device with fastboot mode",
+		"Step": "WaitConnectByFastboot",
+		"Args": {
+			"PromptText": "Please follow the steps:\n1. Power off your device.\n2. Connect the USB cable to the PC.\n3. Press and hold the volume down key on your device and connect the USB cable to your device.\n4. Release the volume down key once the green Android is seen on the phone display.",
+			"Timeout": 120000,
+			"Retry": 3,
+			"BlackList": {
+			    "Message": "K2160",
+		    	"Condition": ["VID_0E8D","VID_22B8&PID_2E81","VID_22B8&PID_2E82","VID_0000&PID_0002"]
+			}				
+		}
+	},
+	{
+      "Name": "Waiting",
+      "Step": "Sleep",
+      "Args": {
+        "Milliseconds": 5000,
+        "ProgressFactor": 0.25
+      }
+    },
+	{
+      "Name": "Read Device Mode",
+      "Step": "ReadDeviceMode",
+      "Args": {
+        "SetPreCond": true,
+		 "ProgressFactor": 0.25
+      }
+    },
+    {
+      "Name": "Connect to Android Device",
+      "Step": "ADBConnect",
+      "Args": {
+        "PreCondTest": "Read Device Mode",
+        "PreCondValue": "ADB",
+		    "ProgressFactor": 0.5
+      }
+    },
+    {
+      "Name": "Switch to Fastboot Mode",
+      "Step": "AndroidShell",
+      "Args": {
+        "Command": "reboot bootloader",
+        "ProgressFactor": 0.25,
+        "PreCondTest": "Read Device Mode",
+        "PreCondValue": "ADB"
+      }
+    },
+    {
+      "Name": "Wait for Fastboot Mode",
+      "Step": "Sleep",
+      "Args": {
+        "Milliseconds": 25000,
+        "ProgressFactor": 0.25,
+        "PreCondTest": "Read Device Mode",
+        "PreCondValue": "ADB"
+      }
+    },	
+    {
+        "Name": "Load folder",
+        "Step": "LoadFiles",
+        "Args": {
+          "Files": [
+            "recoveryFolder",
+            "toolFolder",
+            "recoveryExe2"
+          ]
+        }
+    },
+    {
+        "Name": "Copy Files",
+        "Step": "CopyFiles",
+        "Args": {
+          "Files": [
+            {
+              "SourcePath": "$toolFolder",
+              "DestPath": "$recoveryFolder",
+              "SourceFiles": [
+                "DA_A15_lamu_FORBID_SIGNED.bin",
+                "sign_info.txt"
+              ]
+            }
+          ]
+        }
+    },
+    {
+        "Name": "Load Flash Files",
+        "Step": "LoadFiles",
+        "Args": {
+            "Files": [
+                "LMSA.bat"
+            ],
+            "Values": [
+                "serialno"
+            ]
+        }
+    },
+    {
+      "Name": "Read current slot",
+      "Step": "FastbootShell",
+      "Args": {
+      "Command": "getvar current-slot",
+      "ProgressFactor": 0.05,
+      "Retry": 1,
+      "Timeout": 3000,
+          "IgnoreCurrStepResult": true,
+          "IgnoreFinalResult": true
+      }
+  },
+	{
+		"Name": "Check if image matches the connected device",
+		"Step": "FastbootDeviceMatchCheck",
+		"Args": {
+            "EXE": "$LMSA.bat",
+            "Command": "-s {0}",
+            "Format": [
+                "$serialno"
+            ]     			
+		}
+	},
+	{
+		"Name": "Choose if need erase user data",
+		"Step": "EraseUserData",
+		"Args": {
+			"SetPreCond": true
+		    }
+	},
+	{
+      "Name": "Download Recovery File to Phone",
+      "Step": "Shell",
+      "Args": {
+        "EXE": "$recoveryExe2",
+        "Command": "-c download -d \"{0}\\DA_A15_lamu_FORBID_SIGNED.bin\" -s \"{0}\\MT6768_Android_scatter.txt\" --disable_storage_life_cycle_check",
+        "ErrorPromptText": "Flash failed, please follow the connection prompts to re-connect your device to rescue.",
+        "Format": [
+          "$recoveryFolder",
+          "$recoveryExe2"
+            ],
+        "Timeout": 900000,
+        "LogMonitorActions": [
+            {
+            "ActionType": "Command",
+            "MatchText": "Search usb",
+            "EXE": "fastboot",
+            "Command": "oem shutdown"
+            }
+        ],
+        "MonitorPort":"VID_0E8D",
+	    "PreCondTest": "Choose if need erase user data",
+	    "PreCondValue": "erase",
+        "Image": "pmethod7",
+        "IgnoreCurrStepResult": true
+      }
+    },
+    {
+      "Name": "Download Recovery File to Phone-Retry",
+      "Step": "Shell",
+      "Args": {
+        "EXE": "$recoveryExe2",
+        "Command": "-c download -d \"{0}\\DA_A15_lamu_FORBID_SIGNED.bin\" -s \"{0}\\MT6768_Android_scatter.txt\" --disable_storage_life_cycle_check",
+        "Format": [
+          "$recoveryFolder",
+          "$recoveryExe2"
+        ],
+        "ErrorPromptText": "Flash failed! Trying to turn the device on and off before a rescue may help with some specific types of rescue issues.",
+        "ConnectSteps": {
+			  "NoteText": "K2161",
+	  		"Steps": [
+			  	{
+				"Image": "v3_powerVolumeUp.png",
+				"Content": "Power off device"
+				  },
+			  	{
+				"Image": "phone_connect_7_2.png",
+				"Content": "Connect device to PC via USB cable"
+			  	}
+			]
+		},
+        "Timeout": 900000,
+        "MonitorPort":"VID_0E8D",
+	    "PreCondTest": "Download Recovery File to Phone",
+      	"PreCondValue": "Failed",
+        "Image": "pmethod7",
+        "FailConditions": [
+					{
+						"Condition": ["Connect BROM failed: STATUS_ERR(-1073676287"],
+						"Message": "Flash failed!\nPlease check the port driver in your computer's Device Manager and ensure you are using the [bh weight=600 size = 14]official MediaTek Inc. driver[/bh]. \nIf a third-party driver is installed, please switch to it manually and try again."
+					}
+				]
+        }
+    },
+	{
+      "Name": "Download Recovery File to Phone-Keep personal data",
+      "Step": "Shell",
+      "Args": {
+        "EXE": "$recoveryExe2",
+        "Command": "-c download -d \"{0}\\DA_A15_lamu_FORBID_SIGNED.bin\" -s \"{0}\\MT6768_Android_scatter_reserve_userdata.txt\" --disable_storage_life_cycle_check",
+        "ErrorPromptText": "Flash failed, please follow the connection prompts to re-connect your device to rescue.",
+        "Format": [
+          "$recoveryFolder",
+          "$recoveryExe2"
+        ],
+        "Timeout": 900000,
+        "LogMonitorActions": [
+          {
+            "ActionType": "Command",
+            "MatchText": "Search usb",
+            "EXE": "fastboot",
+            "Command": "oem shutdown"
+          }
+        ],
+	    
+        "MonitorPort":"VID_0E8D",
+        "PreCondTest": "Choose if need erase user data",
+	    "PreCondValue": "unerase",
+        "Image": "pmethod7",
+        "IgnoreCurrStepResult": true
+      }
+    },
+    {
+      "Name": "Download Recovery File to Phone-Keep personal data-Retry",
+      "Step": "Shell",
+      "Args": {
+        "EXE": "$recoveryExe2",
+        "Command": "-c download -d \"{0}\\DA_A15_lamu_FORBID_SIGNED.bin\" -s \"{0}\\MT6768_Android_scatter_reserve_userdata.txt\" --disable_storage_life_cycle_check",
+        "Format": [
+          "$recoveryFolder",
+          "$recoveryExe2"
+        ],
+        "Timeout": 900000,
+        "ErrorPromptText": "Flash failed! Trying to turn the device on and off before a rescue may help with some specific types of rescue issues.",
+        "ConnectSteps": {
+		  	"NoteText": "K2161",
+		  	"Steps": [
+				    {
+			  	"Image": "v3_powerVolumeUp.png",
+			  	"Content": "Power off device"
+			    	},
+			    	{
+			  	"Image": "phone_connect_7_2.png",
+			  	"Content": "Connect device to PC via USB cable"
+				    }
+				  ]
+		     },
+        "MonitorPort":"VID_0E8D",
+	    "PreCondTest": "Download Recovery File to Phone-Keep personal data",
+	    "PreCondValue": "Failed",
+        "Image": "pmethod7",
+        "FailConditions": [
+				{
+					"Condition": ["Connect BROM failed: STATUS_ERR(-1073676287"],
+					"Message": "Flash failed!\nPlease check the port driver in your computer's Device Manager and ensure you are using the [bh weight=600 size = 14]official MediaTek Inc. driver[/bh]. \nIf a third-party driver is installed, please switch to it manually and try again."
+				}
+			]
+      }
+    }
+  ],
+	"FileFormatVersion": "1.0"
+}

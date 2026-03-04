@@ -1,0 +1,25 @@
+{
+  "url": "https://rsddownload-secure.lenovo.com/Rescue_MTK_RemoveBattery_S3_pmethod8_phone.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032059Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f609ebabfd9bd53421f7c39296686c041a2ad4b71e37dbc52b050efd4a05f553",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Wed, 04 Mar 2026 01:49:31 GMT",
+    "Last-Modified": "Sat, 11 Mar 2023 08:55:37 GMT",
+    "Content-Encoding": "br",
+    "x-amz-server-side-encryption": "AES256",
+    "Server": "AmazonS3",
+    "ETag": "W/\"b4b4905ceecc9b2ceac2ffd5ba138c35\"",
+    "Vary": "accept-encoding",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 10bf5e2f3ff7eaefa287c49657b8a838.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "DFW57-P2",
+    "X-Amz-Cf-Id": "y9e9joaPzp-8KyFPAHBgir2mA6A3dl9jD22ptvwJJeMQ0WuOUk60Ig==",
+    "Age": "11861",
+    "X-XSS-Protection": "1; mode=block",
+    "Content-Security-Policy": "\"default-src https: wss: data: 'unsafe-inline' 'unsafe-eval';frame-ancestors 'self'\"",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  }
+}
