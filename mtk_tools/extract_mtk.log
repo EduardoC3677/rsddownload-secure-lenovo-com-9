@@ -1,437 +1,437 @@
-[07:19:03] =================================================================
-[07:19:03]  MTK tools: full extraction + MT6768 artefact collection
-[07:19:03] =================================================================
-[07:19:03]  URL list  : lmsa_tool_urls.txt
-[07:19:03]  Output    : mtk_tools
-[07:19:03] 
-[07:19:03] --- [1] SP_Flash_Tool_5.1640_M1.zip
-[07:19:03]   Downloading: SP_Flash_Tool_5.1640_M1.zip
-[07:19:08]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1640_M1
-[07:19:08]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:08]     [DA] DA_SWSEC.bin
-[07:19:08]     [DA] MTK_AllInOne_DA.bin
-[07:19:08] --- [2] SP_Flash_Tool_5.1820_M1.zip
-[07:19:08]   Downloading: SP_Flash_Tool_5.1820_M1.zip
-[07:19:12]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1820_M1
-[07:19:12]     [DA] MTK_AllInOne_DA_signed.bin
-[07:19:12]     [DA] DA_SWSEC_6737m_98736_71604.bin
-[07:19:12]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:12]     [DA] DA_SWSEC.bin
-[07:19:12] --- [3] MTK_flashtool_v5.1616.00.000.zip
-[07:19:12]   Downloading: MTK_flashtool_v5.1616.00.000.zip
-[07:19:15]   Extracted to: mtk_tools/extracted/MTK_flashtool_v5.1616.00.000
-[07:19:15]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:15]     [DA] DA_SWSEC.bin
-[07:19:15]     [DA] MTK_AllInOne_DA.bin
-[07:19:15] --- [4] SP_Flash_Tool_exe_Windows_v5.1928.01_190906.zip
-[07:19:15]   Downloading: SP_Flash_Tool_exe_Windows_v5.1928.01_190906.zip
-[07:19:19]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1928.01_190906
-[07:19:19]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:19]     [DA] DA_SWSEC.bin
-[07:19:19]     [Auth] auth_sv5.auth
-[07:19:19]     [DA] MTK_AllInOne_DA.bin
-[07:19:19] --- [5] SP_Flash_Tool_exe_Windows_v5.1928.01_191217.zip
-[07:19:19]   Downloading: SP_Flash_Tool_exe_Windows_v5.1928.01_191217.zip
-[07:19:22]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1928.01_191217
-[07:19:22]     [Auth] auth_sv5.auth
-[07:19:22]     [Auth] auth_sv5.auth
-[07:19:22]     [Auth] auth_sv5.auth
-[07:19:22]     [DA] MTK_AllInOne_DA.bin
-[07:19:22] --- [6] Flash_Tool_V5.0.1_Penang.zip
-[07:19:22]   Downloading: Flash_Tool_V5.0.1_Penang.zip
-[07:19:24]   Extracted to: mtk_tools/extracted/Flash_Tool_V5.0.1_Penang
-[07:19:24] --- [7] Smart_Phone_Flash_Tool_For_After_Sale_P410_V3.zip
-[07:19:24]   Downloading: Smart_Phone_Flash_Tool_For_After_Sale_P410_V3.zip
-[07:19:28]   Extracted to: mtk_tools/extracted/Smart_Phone_Flash_Tool_For_After_Sale_P410_V3
-[07:19:28]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:29]     [DA] DA_SWSEC.bin
-[07:19:29]     [Auth] auth_sv5.auth
-[07:19:29]     [DA] MTK_AllInOne_DA.bin
-[07:19:29] --- [8] TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11.zip
-[07:19:29]   Downloading: TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11.zip
-[07:19:32]   Extracted to: mtk_tools/extracted/TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11
-[07:19:32]     [DA] DA_SWSEC_2316_p325a_dl_forbidden3.bin
-[07:19:32] --- [9] LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release.zip
-[07:19:32]   Downloading: LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release.zip
-[07:19:34]   Extracted to: mtk_tools/extracted/LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release
-[07:19:34] --- [10] Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1.zip
-[07:19:34]   Downloading: Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1.zip
-[07:19:37]   Extracted to: mtk_tools/extracted/Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1
-[07:19:37] --- [11] LamuC_FlashTool_Console_LMSA_5.2404.03_release.zip
-[07:19:37]   Downloading: LamuC_FlashTool_Console_LMSA_5.2404.03_release.zip
-[07:19:39]   Extracted to: mtk_tools/extracted/LamuC_FlashTool_Console_LMSA_5.2404.03_release
-[07:19:39] --- [12] SP_Flash_Tool_5.1628_M3.zip
-[07:19:39]   Downloading: SP_Flash_Tool_5.1628_M3.zip
-[07:19:43]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1628_M3
-[07:19:43]     [Scatter] MT6580_Android_scatter.txt
-[07:19:43]     [DA] DA_SWSEC_6580_98737_71604.bin
-[07:19:43]     [DA] MTK_AllInOne_DA_6850_98737_backup1111.bin
-[07:19:43]     [DA] MTK_AllInOne_DA_6580_98737_71604.bin
-[07:19:43]     [DA] MTK_AllInOne_DA_6737m_98736_71604.bin
-[07:19:43]     [DA] DA_SWSEC_6737m_98736_71604.bin
-[07:19:43]     [Scatter] MT6737M_Android_scatter.txt
-[07:19:43]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:43]     [DA] DA_SWSEC.bin
-[07:19:43]     [Auth] auth_sv5_LenovoNamath.auth
-[07:19:43]     [Auth] auth_sv5.auth
-[07:19:43]     [Auth] auth_sv5_LenovoWatson.auth
-[07:19:43]     [DA] MTK_AllInOne_DA.bin
-[07:19:43] --- [13] flash_tool_v5.20230809.00.001.zip
-[07:19:43]   Downloading: flash_tool_v5.20230809.00.001.zip
-[07:19:47]   Extracted to: mtk_tools/extracted/flash_tool_v5.20230809.00.001
-[07:19:47]     [DA] MTK_AllInOne_DA-bj.bin
-[07:19:47]     [DA] MTK_AllInOne_DA-verified_FIJI.bin
-[07:19:47]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:47]     [DA] DA_SWSEC.bin
-[07:19:47]     [DA] MTK_AllInOne_DA-Malta-md.bin
-[07:19:47]     [DA] MTK_AllInOne_DA-Malta.bin
-[07:19:47]     [Auth] auth_sv5.auth
-[07:19:47]     [DA] MTK_AllInOne_DA-verified_BALI.bin
-[07:19:47]     [DA] MTK_AllInOne_DA.bin
-[07:19:47] --- [14] SP_Flash_Tool_5.1644_Lacrosse.zip
-[07:19:47]   Downloading: SP_Flash_Tool_5.1644_Lacrosse.zip
-[07:19:52]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1644_Lacrosse
-[07:19:52]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:52]     [DA] DA_SWSEC.bin
-[07:19:52]     [DA] MTK_AllInOne_DA.bin
-[07:19:52] --- [15] MTK_Flash_tool_V5.2036.zip
-[07:19:52]   Downloading: MTK_Flash_tool_V5.2036.zip
-[07:19:55]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_V5.2036
-[07:19:55]     [DA] MTK_AllInOne_DA_MT6761_resign.bin
-[07:19:55] --- [16] MTK_Flash_Tool_V5.2052_YT-J706.zip
-[07:19:55]   Downloading: MTK_Flash_Tool_V5.2052_YT-J706.zip
-[07:19:57]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_V5.2052_YT-J706
-[07:19:57]     [DA] MTK_AllInOne_DA-mt6785-resign.bin
-[07:19:57]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:57]     [DA] DA_SWSEC.bin
-[07:19:57]     [Auth] auth_sv5.auth
-[07:19:57]     [DA] MTK_AllInOne_DA.bin
-[07:19:57] --- [17] MTK_Flash_Tool_Asha.zip
-[07:19:57]   Downloading: MTK_Flash_Tool_Asha.zip
-[07:19:59]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_Asha
-[07:19:59]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:19:59]     [DA] DA_SWSEC.bin
-[07:19:59]     [Auth] auth_sv5.auth
-[07:19:59] --- [18] MTK_Flash_Tool_v5.2104_TB-J616.zip
-[07:19:59]   Downloading: MTK_Flash_Tool_v5.2104_TB-J616.zip
-[07:20:01]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.2104_TB-J616
-[07:20:01]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:01]     [DA] DA_SWSEC.bin
-[07:20:01]     [Auth] auth_sv5.auth
-[07:20:01]     [DA] MTK_AllInOne_DA_p11.bin
-[07:20:01]     [DA] MTK_AllInOne_DA.bin
-[07:20:01] --- [19] MTK_Flash_Tool_v5.2052_8506.zip
-[07:20:01]   Downloading: MTK_Flash_Tool_v5.2052_8506.zip
-[07:20:04]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.2052_8506
-[07:20:04]     [DA] MTK_AllInOne_DA-efuse-p502_resign.bin
-[07:20:04]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:04]     [DA] DA_SWSEC.bin
-[07:20:04]     [Auth] auth_sv5.auth
-[07:20:04]     [DA] MTK_AllInOne_DA.bin
-[07:20:04] --- [20] SP_Flash_Tool_V5.1652_TB-7504.zip
-[07:20:04]   Downloading: SP_Flash_Tool_V5.1652_TB-7504.zip
-[07:20:06]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.1652_TB-7504
-[07:20:06]     [DA] DA_SWSEC_ANDY4_1652.bin
-[07:20:06] --- [21] SP_Flash_Tool_exe_Windows_v5.1804_TB3-730.zip
-[07:20:06]   Downloading: SP_Flash_Tool_exe_Windows_v5.1804_TB3-730.zip
-[07:20:08]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1804_TB3-730
-[07:20:08]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:08] --- [22] SP_Flash_Tool_5.1652_TB3-710.zip
-[07:20:08]   Downloading: SP_Flash_Tool_5.1652_TB3-710.zip
-[07:20:11]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_TB3-710
-[07:20:11]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:11]     [DA] DA_SWSEC.bin
-[07:20:11]     [Auth] auth_sv5.auth
-[07:20:11]     [DA] MTK_AllInOne_DA.bin
-[07:20:11] --- [23] MTK_Flash_Tool_Asha_SVC.zip
-[07:20:11]   Downloading: MTK_Flash_Tool_Asha_SVC.zip
-[07:20:18]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_Asha_SVC
-[07:20:18]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:18]     [DA] DA_SWSEC.bin
-[07:20:18]     [Auth] auth_sv5.auth
-[07:20:18]     [DA] MTK_AllInOne_DA.bin
-[07:20:18] --- [24] SP_Flash_Tool_V5.1804_PB2-650_670.zip
-[07:20:18]   Downloading: SP_Flash_Tool_V5.1804_PB2-650_670.zip
-[07:20:20]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.1804_PB2-650_670
-[07:20:20]     [DA] DA_SWSEC.bin
-[07:20:20]     [DA] DA_SWSEC_CRYPTO20_0403.bin
-[07:20:20] --- [25] SP_Flash_Tool_TB-7304IX.zip
-[07:20:21]   Downloading: SP_Flash_Tool_TB-7304IX.zip
-[07:20:24]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304IX
-[07:20:24]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:24]     [DA] DA_SWSEC.bin
-[07:20:24]     [Auth] auth_sv5.auth
-[07:20:24]     [DA] MTK_AllInOne_DA.bin
-[07:20:24] --- [26] SP_Flash_Tool_5.1652_TB3-850.zip
-[07:20:24]   Downloading: SP_Flash_Tool_5.1652_TB3-850.zip
-[07:20:30]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_TB3-850
-[07:20:30]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:30]     [DA] DA_SWSEC.bin
-[07:20:30]     [Auth] auth_sv5.auth
-[07:20:30]     [DA] MTK_AllInOne_DA.bin
-[07:20:30] --- [27] Flash_Tool_TB-8304F.zip
-[07:20:30]   Downloading: Flash_Tool_TB-8304F.zip
-[07:20:35]   Extracted to: mtk_tools/extracted/Flash_Tool_TB-8304F
-[07:20:35]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:35]     [DA] DA_SWSEC.bin
-[07:20:35]     [Auth] auth_sv5.auth
-[07:20:35]     [DA] MTK_AllInOne_DA.bin
-[07:20:35] --- [28] SP_Flash_Tool_TB-7304F_NEW.zip
-[07:20:35]   Downloading: SP_Flash_Tool_TB-7304F_NEW.zip
-[07:20:37]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304F_NEW
-[07:20:37]     [Scatter] efuse_scatter.txt
-[07:20:37]     [Auth] auth_sv5.auth
-[07:20:37]     [DA] MTK_AllInOne_DA.bin
-[07:20:37] --- [29] SP_Flash_Tool_TB-7304IX_SVC.zip
-[07:20:37]   Downloading: SP_Flash_Tool_TB-7304IX_SVC.zip
-[07:20:39]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304IX_SVC
-[07:20:39]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:39]     [DA] DA_SWSEC.bin
-[07:20:39]     [Auth] auth_sv5.auth
-[07:20:39]     [DA] MTK_AllInOne_DA.bin
-[07:20:39] --- [30] MTK_Flash_tool_v5.1920.00.001_V1.zip
-[07:20:39]   Downloading: MTK_Flash_tool_v5.1920.00.001_V1.zip
-[07:20:43]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_v5.1920.00.001_V1
-[07:20:43]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:43]     [DA] DA_SWSEC.bin
-[07:20:43]     [DA] MTK_AllInOne_DA.bin
-[07:20:43] --- [31] MTK_Flash_tool_v5.1920.00.001_V1_update.zip
-[07:20:43]   Downloading: MTK_Flash_tool_v5.1920.00.001_V1_update.zip
-[07:20:49]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_v5.1920.00.001_V1_update
-[07:20:49]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:49]     [DA] DA_SWSEC.bin
-[07:20:49]     [DA] MTK_AllInOne_DA.bin
-[07:20:49] --- [32] SP_Flash_Tool_5.1652_M2.zip
-[07:20:49]   Downloading: SP_Flash_Tool_5.1652_M2.zip
-[07:20:52]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_M2
-[07:20:52]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:52]     [DA] DA_SWSEC.bin
-[07:20:52]     [Auth] auth_sv5.auth
-[07:20:52]     [DA] MTK_AllInOne_DA.bin
-[07:20:52] --- [33] MTK_Flash_Tool_v5.1916.zip
-[07:20:52]   Downloading: MTK_Flash_Tool_v5.1916.zip
-[07:20:55]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.1916
-[07:20:55]     [DA] MTK_AllInOne_DA_8765.bin
-[07:20:55]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:20:55]     [DA] DA_SWSEC.bin
-[07:20:55]     [DA] MTK_AllInOne_DA.bin
-[07:20:55] --- [34] MTK_flash_tool_V6_SVC.zip
-[07:20:55]   Downloading: MTK_flash_tool_V6_SVC.zip
-[07:20:57]   Extracted to: mtk_tools/extracted/MTK_flash_tool_V6_SVC
-[07:20:57]     [Auth] da.auth
-[07:20:57] --- [35] MTK_V5_Parsely_V1.zip
-[07:20:57]   Downloading: MTK_V5_Parsely_V1.zip
-[07:21:00]   Extracted to: mtk_tools/extracted/MTK_V5_Parsely_V1
-[07:21:00]     [Scatter] MT6761_Android_scatter.txt
-[07:21:00]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:00]     [DA] DA_SWSEC.bin
-[07:21:00]     [Auth] auth_sv5.auth
-[07:21:00]     [DA] MTK_AllInOne_DA.bin
-[07:21:00] --- [36] SP_Flash_Tool_V5_LTE.zip
-[07:21:00]   Downloading: SP_Flash_Tool_V5_LTE.zip
-[07:21:07]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_LTE
-[07:21:07]     [Auth] auth_sv5_t6100a_wifi.auth
-[07:21:07]     [Auth] auth_sv5_t6100a_lte.auth
-[07:21:07]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:07]     [DA] DA_SWSEC.bin
-[07:21:07]     [DA] MTK_AllInOne_DA.bin
-[07:21:07] --- [37] MTK_Flash_tool_v5.1920.00.001_V2.zip
-[07:21:07]   Downloading: MTK_Flash_tool_v5.1920.00.001_V2.zip
-[07:21:09]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_v5.1920.00.001_V2
-[07:21:09]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:09]     [DA] DA_SWSEC.bin
-[07:21:09]     [DA] MTK_AllInOne_DA.bin
-[07:21:09] --- [38] MTK_V5_ParselyRefresh_V1.zip
-[07:21:09]   Downloading: MTK_V5_ParselyRefresh_V1.zip
-[07:21:17]   Extracted to: mtk_tools/extracted/MTK_V5_ParselyRefresh_V1
-[07:21:17]     [Scatter] MT6761_Android_scatter.txt
-[07:21:17]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:17]     [DA] DA_SWSEC.bin
-[07:21:17]     [Auth] auth_sv5.auth
-[07:21:17]     [DA] MTK_AllInOne_DA.bin
-[07:21:17] --- [39] SP_Flash_Tool_V5_TB330_POGOPIN.zip
-[07:21:17]   Downloading: SP_Flash_Tool_V5_TB330_POGOPIN.zip
-[07:21:19]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_TB330_POGOPIN
-[07:21:19]     [DA] MTK_AllInOne_DA-resign.bin
-[07:21:19]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:19]     [DA] DA_SWSEC.bin
-[07:21:19]     [Auth] auth_sv5.auth
-[07:21:19]     [DA] MTK_AllInOne_DA.bin
-[07:21:19] --- [40] MTK_Flash_Tool_TB132FU_SVC.zip
-[07:21:19]   Downloading: MTK_Flash_Tool_TB132FU_SVC.zip
-[07:21:22]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_TB132FU_SVC
-[07:21:22]     [Auth] auth_sv5_onyx.auth
-[07:21:22]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:22]     [DA] DA_SWSEC.bin
-[07:21:22]     [Auth] auth_sv5.auth
-[07:21:22]     [DA] MTK_AllInOne_DA_onyx_signed.bin
-[07:21:22]     [DA] MTK_AllInOne_DA.bin
-[07:21:22] --- [41] SP_Flash_Tool_V5_20240829_OTA15.zip
-[07:21:22]   Downloading: SP_Flash_Tool_V5_20240829_OTA15.zip
-[07:21:24]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_20240829_OTA15
-[07:21:24]     [Auth] auth_sv5_wt.auth
-[07:21:24]     [DA] MTK_AllInOne_DA-resign.bin
-[07:21:24]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:24]     [DA] DA_SWSEC.bin
-[07:21:24]     [DA] MTK_AllInOne_DA.bin
-[07:21:24] --- [42] MTK_flash_tool_V6_TB351.zip
-[07:21:24]   Downloading: MTK_flash_tool_V6_TB351.zip
-[07:21:26]   Extracted to: mtk_tools/extracted/MTK_flash_tool_V6_TB351
-[07:21:26]     [Auth] da.auth
-[07:21:26] --- [43] SP_Flash_Tool_V5.24_TB311.zip
-[07:21:26]   Downloading: SP_Flash_Tool_V5.24_TB311.zip
-[07:21:29]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.24_TB311
-[07:21:29]     [Scatter] MT6761_Android_scatter.txt
-[07:21:29]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:29]     [DA] DA_SWSEC.bin
-[07:21:29]     [Auth] auth_sv5.auth
-[07:21:29]     [DA] MTK_AllInOne_DA.bin
-[07:21:29] --- [44] SP_Flash_Tool_V5.24_TB305.zip
-[07:21:29]   Downloading: SP_Flash_Tool_V5.24_TB305.zip
-[07:21:43]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.24_TB305
-[07:21:43]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:43]     [DA] DA_SWSEC.bin
-[07:21:43]     [Auth] auth_sv5.auth
-[07:21:43]     [DA] MTK_AllInOne_DA.bin
-[07:21:43] --- [45] SP_Flash_Tool_TB336.zip
-[07:21:43]   Downloading: SP_Flash_Tool_TB336.zip
-[07:21:44]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB336
-[07:21:44]     [Auth] da.auth
-[07:21:44] --- [46] SP_Flash_Tool_V2.zip
-[07:21:44]   Downloading: SP_Flash_Tool_V2.zip
-[07:21:47]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V2
-[07:21:47]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:21:47]     [DA] DA_SWSEC.bin
-[07:21:47]     [DA] MTK_AllInOne_DA.bin
-[07:21:47] --- [47] SP_Flash_Tool_exe_Windows_v5.1920.00.001.zip
-[07:21:47]   Downloading: SP_Flash_Tool_exe_Windows_v5.1920.00.001.zip
-[07:21:51]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1920.00.001
-[07:21:51]     [Auth] auth_sv5.auth
-[07:21:51]     [Auth] auth_sv5.auth
-[07:21:51]     [Auth] auth_sv5.auth
-[07:21:51]     [Auth] auth_sv5.auth
-[07:21:51]     [DA] MTK_AllInOne_DA.bin
-[07:21:51] --- [48] SP_Flash_Tool_exe_Windows_v6.20240517_XT2055.zip
-[07:21:51]   Downloading: SP_Flash_Tool_exe_Windows_v6.20240517_XT2055.zip
-[07:21:54]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v6.20240517_XT2055
-[07:21:54]     [Auth] auth_sv5.auth
-[07:21:54]     [Auth] auth_sv5.auth
-[07:21:54]     [Auth] auth_sv5.auth
-[07:21:54]     [Auth] auth_sv5.auth
-[07:21:54]     [Auth] auth_sv5.auth
-[07:21:54]     [DA] MTK_AllInOne_DA.bin
-[07:21:54] --- [49] SP_Flash_Tool_exe_Windows_A2016.zip
-[07:21:54]   Downloading: SP_Flash_Tool_exe_Windows_A2016.zip
-[07:21:56]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_A2016
-[07:21:57]     [DA] DA_SWSEC.bin
-[07:21:57] --- [50] SP_Flash_Tool_V5_MSC_20230809.zip
-[07:21:57]   Downloading: SP_Flash_Tool_V5_MSC_20230809.zip
-[07:22:01]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_MSC_20230809
-[07:22:01]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:01]     [Auth] BORA_All_Efused_Download_2216.auth
-[07:22:01]     [DA] DA_SWSEC.bin
-[07:22:01]     [DA] MTK_AllInOne_DA.bin
-[07:22:01] --- [51] MTK_Flash_Tool_v5.2104_P522.zip
-[07:22:01]   Downloading: MTK_Flash_Tool_v5.2104_P522.zip
-[07:22:04]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.2104_P522
-[07:22:04]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:04]     [DA] DA_SWSEC.bin
-[07:22:04]     [Auth] auth_sv5.auth
-[07:22:04]     [DA] MTK_AllInOne_DA_p11.bin
-[07:22:04]     [DA] MTK_AllInOne_DA.bin
-[07:22:04] --- [52] PokerPlus_Flash_Tool_S1916.V1848.1.zip
-[07:22:04]   Downloading: PokerPlus_Flash_Tool_S1916.V1848.1.zip
-[07:22:09]   Extracted to: mtk_tools/extracted/PokerPlus_Flash_Tool_S1916.V1848.1
-[07:22:09]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:09]     [DA] DA_SWSEC.bin
-[07:22:09]     [DA] MTK_AllInOne_DA.bin
-[07:22:09] --- [53] SP_Flash_Tool_5.1652_M1.zip
-[07:22:09]   Downloading: SP_Flash_Tool_5.1652_M1.zip
-[07:22:12]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_M1
-[07:22:12]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:12]     [DA] DA_SWSEC.bin
-[07:22:12]     [DA] MTK_AllInOne_DA.bin
-[07:22:12] --- [54] RESEARCHDOWNLOAD_R21.0.0001.zip
-[07:22:12]   Downloading: RESEARCHDOWNLOAD_R21.0.0001.zip
-[07:22:13]   Extracted to: mtk_tools/extracted/RESEARCHDOWNLOAD_R21.0.0001
-[07:22:13] --- [55] SP_Flash_Tool_TB-7304F_CMB.zip
-[07:22:13]   Downloading: SP_Flash_Tool_TB-7304F_CMB.zip
-[07:22:19]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304F_CMB
-[07:22:19]     [Auth] auth_sv5.auth
-[07:22:19]     [DA] MTK_AllInOne_DA.bin
-[07:22:19] --- [56] SP_Flash_Tool_exe_Windows_v5.1804_TB3-730_SVC.zip
-[07:22:19]   Downloading: SP_Flash_Tool_exe_Windows_v5.1804_TB3-730_SVC.zip
-[07:22:22]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1804_TB3-730_SVC
-[07:22:22]     [Scatter] MT6580_Android_scatter.txt
-[07:22:22]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:22]     [DA] DA_SWSEC.bin
-[07:22:22]     [Auth] auth_sv5.auth
-[07:22:22]     [DA] MTK_AllInOne_DA.bin
-[07:22:22] --- [57] SP_Flash_Tool_V6_TB373.zip
-[07:22:22]   Downloading: SP_Flash_Tool_V6_TB373.zip
-[07:22:23]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V6_TB373
-[07:22:23]     [Auth] da.auth
-[07:22:23] --- [58] SP_Flash_Tool_5.1644_Lacrosse_Auth.zip
-[07:22:23]   Downloading: SP_Flash_Tool_5.1644_Lacrosse_Auth.zip
-[07:22:26]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1644_Lacrosse_Auth
-[07:22:26]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:26]     [DA] DA_SWSEC.bin
-[07:22:26]     [Auth] auth_sv5.auth
-[07:22:26]     [DA] MTK_AllInOne_DA.bin
-[07:22:26] --- [59] MTK_flash_tool_V6.zip
-[07:22:26]   Downloading: MTK_flash_tool_V6.zip
-[07:22:28]   Extracted to: mtk_tools/extracted/MTK_flash_tool_V6
-[07:22:28] --- [60] SP_Flash_Tool_exe_A1010a20.zip
-[07:22:28]   Downloading: SP_Flash_Tool_exe_A1010a20.zip
-[07:22:41]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_A1010a20
-[07:22:41]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:42]     [DA] DA_SWSEC.bin
-[07:22:42]     [DA] MTK_AllInOne_DA.bin
-[07:22:42] --- [61] SP_Flash_Tool_XT1700XT1706.zip
-[07:22:42]   Downloading: SP_Flash_Tool_XT1700XT1706.zip
-[07:22:45]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_XT1700XT1706
-[07:22:45]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:45]     [DA] DA_SWSEC.bin
-[07:22:45]     [DA] MTK_AllInOne_DA.bin
-[07:22:45] --- [62] SP_Flash_Tool_V5_Wifi.zip
-[07:22:45]   Downloading: SP_Flash_Tool_V5_Wifi.zip
-[07:22:49]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_Wifi
-[07:22:49]     [Auth] auth_sv5_t6100a_wifi.auth
-[07:22:49]     [Auth] auth_sv5_t6100a_lte.auth
-[07:22:49]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:49]     [DA] DA_SWSEC.bin
-[07:22:49]     [DA] MTK_AllInOne_DA.bin
-[07:22:49] --- [63] MTK_SP_Flash_Tool_V5_TB370_V1.zip
-[07:22:49]   Downloading: MTK_SP_Flash_Tool_V5_TB370_V1.zip
-[07:22:58]   Extracted to: mtk_tools/extracted/MTK_SP_Flash_Tool_V5_TB370_V1
-[07:22:59]     [Scatter] MT6761_Android_scatter.txt
-[07:22:59]     [DA] MTK_AllInOne_DA-resign.bin
-[07:22:59]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:22:59]     [DA] DA_SWSEC.bin
-[07:22:59]     [Auth] auth_sv5.auth
-[07:22:59]     [DA] MTK_AllInOne_DA.bin
-[07:22:59] --- [64] MTK_SP_Flash_Tool_V5_TB370.zip
-[07:22:59]   Downloading: MTK_SP_Flash_Tool_V5_TB370.zip
-[07:23:02]   Extracted to: mtk_tools/extracted/MTK_SP_Flash_Tool_V5_TB370
-[07:23:02]     [Scatter] MT6761_Android_scatter.txt
-[07:23:02]     [DA] MTK_AllInOne_DA-resign.bin
-[07:23:02]     [DA] DA_SWSEC_CRYPTO20.bin
-[07:23:02]     [DA] DA_SWSEC.bin
-[07:23:02]     [Auth] auth_sv5.auth
-[07:23:02]     [DA] MTK_AllInOne_DA.bin
-[07:23:02] 
-[07:23:02] =================================================================
-[07:23:02]  Summary
-[07:23:02] =================================================================
-[07:23:02]  MTK archives found in list : 64
-[07:23:02]  Archives successfully unzipped : 64
-[07:23:02]  MT6768-related files collected : 223
-[07:23:02] 
-[07:23:02]  Output tree:
-[07:23:02]    Full extractions -> mtk_tools/extracted
-[07:23:02]    MT6768 / DA      -> mtk_tools/mt6768/DA
-[07:23:02]    MT6768 / SVC     -> mtk_tools/mt6768/SVC
-[07:23:02]    MT6768 / Auth    -> mtk_tools/mt6768/Auth
-[07:23:02]    MT6768 / Scatter -> mtk_tools/mt6768/Scatter
-[07:23:02]    MT6768 / Other   -> mtk_tools/mt6768/Other
-[07:23:02]  Full log            -> mtk_tools/extract_mtk.log
+[07:52:56] =================================================================
+[07:52:56]  MTK tools: full extraction + MT6768 artefact collection
+[07:52:56] =================================================================
+[07:52:56]  URL list  : lmsa_tool_urls.txt
+[07:52:56]  Output    : mtk_tools
+[07:52:56] 
+[07:52:56] --- [1] SP_Flash_Tool_5.1640_M1.zip
+[07:52:56]   Downloading: SP_Flash_Tool_5.1640_M1.zip
+[07:53:01]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1640_M1
+[07:53:01]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:01]     [DA] DA_SWSEC.bin
+[07:53:01]     [DA] MTK_AllInOne_DA.bin
+[07:53:01] --- [2] SP_Flash_Tool_5.1820_M1.zip
+[07:53:01]   Downloading: SP_Flash_Tool_5.1820_M1.zip
+[07:53:03]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1820_M1
+[07:53:04]     [DA] MTK_AllInOne_DA_signed.bin
+[07:53:04]     [DA] DA_SWSEC_6737m_98736_71604.bin
+[07:53:04]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:04]     [DA] DA_SWSEC.bin
+[07:53:04] --- [3] MTK_flashtool_v5.1616.00.000.zip
+[07:53:04]   Downloading: MTK_flashtool_v5.1616.00.000.zip
+[07:53:05]   Extracted to: mtk_tools/extracted/MTK_flashtool_v5.1616.00.000
+[07:53:05]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:05]     [DA] DA_SWSEC.bin
+[07:53:05]     [DA] MTK_AllInOne_DA.bin
+[07:53:05] --- [4] SP_Flash_Tool_exe_Windows_v5.1928.01_190906.zip
+[07:53:05]   Downloading: SP_Flash_Tool_exe_Windows_v5.1928.01_190906.zip
+[07:53:07]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1928.01_190906
+[07:53:07]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:07]     [DA] DA_SWSEC.bin
+[07:53:07]     [Auth] auth_sv5.auth
+[07:53:07]     [DA] MTK_AllInOne_DA.bin
+[07:53:07] --- [5] SP_Flash_Tool_exe_Windows_v5.1928.01_191217.zip
+[07:53:07]   Downloading: SP_Flash_Tool_exe_Windows_v5.1928.01_191217.zip
+[07:53:09]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1928.01_191217
+[07:53:09]     [Auth] auth_sv5.auth
+[07:53:09]     [Auth] auth_sv5.auth
+[07:53:09]     [Auth] auth_sv5.auth
+[07:53:09]     [DA] MTK_AllInOne_DA.bin
+[07:53:09] --- [6] Flash_Tool_V5.0.1_Penang.zip
+[07:53:09]   Downloading: Flash_Tool_V5.0.1_Penang.zip
+[07:53:10]   Extracted to: mtk_tools/extracted/Flash_Tool_V5.0.1_Penang
+[07:53:10] --- [7] Smart_Phone_Flash_Tool_For_After_Sale_P410_V3.zip
+[07:53:10]   Downloading: Smart_Phone_Flash_Tool_For_After_Sale_P410_V3.zip
+[07:53:14]   Extracted to: mtk_tools/extracted/Smart_Phone_Flash_Tool_For_After_Sale_P410_V3
+[07:53:14]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:14]     [DA] DA_SWSEC.bin
+[07:53:14]     [Auth] auth_sv5.auth
+[07:53:14]     [DA] MTK_AllInOne_DA.bin
+[07:53:14] --- [8] TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11.zip
+[07:53:14]   Downloading: TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11.zip
+[07:53:18]   Extracted to: mtk_tools/extracted/TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11
+[07:53:18]     [DA] DA_SWSEC_2316_p325a_dl_forbidden3.bin
+[07:53:18] --- [9] LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release.zip
+[07:53:18]   Downloading: LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release.zip
+[07:53:19]   Extracted to: mtk_tools/extracted/LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release
+[07:53:19] --- [10] Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1.zip
+[07:53:19]   Downloading: Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1.zip
+[07:53:21]   Extracted to: mtk_tools/extracted/Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1
+[07:53:21] --- [11] LamuC_FlashTool_Console_LMSA_5.2404.03_release.zip
+[07:53:21]   Downloading: LamuC_FlashTool_Console_LMSA_5.2404.03_release.zip
+[07:53:22]   Extracted to: mtk_tools/extracted/LamuC_FlashTool_Console_LMSA_5.2404.03_release
+[07:53:22] --- [12] SP_Flash_Tool_5.1628_M3.zip
+[07:53:22]   Downloading: SP_Flash_Tool_5.1628_M3.zip
+[07:53:25]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1628_M3
+[07:53:25]     [Scatter] MT6580_Android_scatter.txt
+[07:53:25]     [DA] DA_SWSEC_6580_98737_71604.bin
+[07:53:25]     [DA] MTK_AllInOne_DA_6850_98737_backup1111.bin
+[07:53:25]     [DA] MTK_AllInOne_DA_6580_98737_71604.bin
+[07:53:25]     [DA] MTK_AllInOne_DA_6737m_98736_71604.bin
+[07:53:25]     [DA] DA_SWSEC_6737m_98736_71604.bin
+[07:53:25]     [Scatter] MT6737M_Android_scatter.txt
+[07:53:25]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:25]     [DA] DA_SWSEC.bin
+[07:53:25]     [Auth] auth_sv5_LenovoNamath.auth
+[07:53:25]     [Auth] auth_sv5.auth
+[07:53:25]     [Auth] auth_sv5_LenovoWatson.auth
+[07:53:25]     [DA] MTK_AllInOne_DA.bin
+[07:53:25] --- [13] flash_tool_v5.20230809.00.001.zip
+[07:53:25]   Downloading: flash_tool_v5.20230809.00.001.zip
+[07:53:28]   Extracted to: mtk_tools/extracted/flash_tool_v5.20230809.00.001
+[07:53:28]     [DA] MTK_AllInOne_DA-bj.bin
+[07:53:28]     [DA] MTK_AllInOne_DA-verified_FIJI.bin
+[07:53:28]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:28]     [DA] DA_SWSEC.bin
+[07:53:28]     [DA] MTK_AllInOne_DA-Malta-md.bin
+[07:53:28]     [DA] MTK_AllInOne_DA-Malta.bin
+[07:53:28]     [Auth] auth_sv5.auth
+[07:53:28]     [DA] MTK_AllInOne_DA-verified_BALI.bin
+[07:53:28]     [DA] MTK_AllInOne_DA.bin
+[07:53:28] --- [14] SP_Flash_Tool_5.1644_Lacrosse.zip
+[07:53:28]   Downloading: SP_Flash_Tool_5.1644_Lacrosse.zip
+[07:53:30]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1644_Lacrosse
+[07:53:30]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:30]     [DA] DA_SWSEC.bin
+[07:53:30]     [DA] MTK_AllInOne_DA.bin
+[07:53:30] --- [15] MTK_Flash_tool_V5.2036.zip
+[07:53:30]   Downloading: MTK_Flash_tool_V5.2036.zip
+[07:53:32]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_V5.2036
+[07:53:32]     [DA] MTK_AllInOne_DA_MT6761_resign.bin
+[07:53:32] --- [16] MTK_Flash_Tool_V5.2052_YT-J706.zip
+[07:53:32]   Downloading: MTK_Flash_Tool_V5.2052_YT-J706.zip
+[07:53:35]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_V5.2052_YT-J706
+[07:53:35]     [DA] MTK_AllInOne_DA-mt6785-resign.bin
+[07:53:35]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:35]     [DA] DA_SWSEC.bin
+[07:53:35]     [Auth] auth_sv5.auth
+[07:53:35]     [DA] MTK_AllInOne_DA.bin
+[07:53:35] --- [17] MTK_Flash_Tool_Asha.zip
+[07:53:35]   Downloading: MTK_Flash_Tool_Asha.zip
+[07:53:37]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_Asha
+[07:53:37]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:37]     [DA] DA_SWSEC.bin
+[07:53:37]     [Auth] auth_sv5.auth
+[07:53:37] --- [18] MTK_Flash_Tool_v5.2104_TB-J616.zip
+[07:53:37]   Downloading: MTK_Flash_Tool_v5.2104_TB-J616.zip
+[07:53:39]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.2104_TB-J616
+[07:53:39]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:40]     [DA] DA_SWSEC.bin
+[07:53:40]     [Auth] auth_sv5.auth
+[07:53:40]     [DA] MTK_AllInOne_DA_p11.bin
+[07:53:40]     [DA] MTK_AllInOne_DA.bin
+[07:53:40] --- [19] MTK_Flash_Tool_v5.2052_8506.zip
+[07:53:40]   Downloading: MTK_Flash_Tool_v5.2052_8506.zip
+[07:53:42]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.2052_8506
+[07:53:42]     [DA] MTK_AllInOne_DA-efuse-p502_resign.bin
+[07:53:42]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:42]     [DA] DA_SWSEC.bin
+[07:53:42]     [Auth] auth_sv5.auth
+[07:53:42]     [DA] MTK_AllInOne_DA.bin
+[07:53:42] --- [20] SP_Flash_Tool_V5.1652_TB-7504.zip
+[07:53:42]   Downloading: SP_Flash_Tool_V5.1652_TB-7504.zip
+[07:53:43]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.1652_TB-7504
+[07:53:43]     [DA] DA_SWSEC_ANDY4_1652.bin
+[07:53:43] --- [21] SP_Flash_Tool_exe_Windows_v5.1804_TB3-730.zip
+[07:53:43]   Downloading: SP_Flash_Tool_exe_Windows_v5.1804_TB3-730.zip
+[07:53:45]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1804_TB3-730
+[07:53:45]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:45] --- [22] SP_Flash_Tool_5.1652_TB3-710.zip
+[07:53:45]   Downloading: SP_Flash_Tool_5.1652_TB3-710.zip
+[07:53:47]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_TB3-710
+[07:53:47]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:47]     [DA] DA_SWSEC.bin
+[07:53:47]     [Auth] auth_sv5.auth
+[07:53:47]     [DA] MTK_AllInOne_DA.bin
+[07:53:47] --- [23] MTK_Flash_Tool_Asha_SVC.zip
+[07:53:47]   Downloading: MTK_Flash_Tool_Asha_SVC.zip
+[07:53:49]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_Asha_SVC
+[07:53:49]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:49]     [DA] DA_SWSEC.bin
+[07:53:49]     [Auth] auth_sv5.auth
+[07:53:49]     [DA] MTK_AllInOne_DA.bin
+[07:53:49] --- [24] SP_Flash_Tool_V5.1804_PB2-650_670.zip
+[07:53:49]   Downloading: SP_Flash_Tool_V5.1804_PB2-650_670.zip
+[07:53:51]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.1804_PB2-650_670
+[07:53:51]     [DA] DA_SWSEC.bin
+[07:53:51]     [DA] DA_SWSEC_CRYPTO20_0403.bin
+[07:53:51] --- [25] SP_Flash_Tool_TB-7304IX.zip
+[07:53:51]   Downloading: SP_Flash_Tool_TB-7304IX.zip
+[07:53:55]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304IX
+[07:53:55]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:55]     [DA] DA_SWSEC.bin
+[07:53:55]     [Auth] auth_sv5.auth
+[07:53:55]     [DA] MTK_AllInOne_DA.bin
+[07:53:55] --- [26] SP_Flash_Tool_5.1652_TB3-850.zip
+[07:53:55]   Downloading: SP_Flash_Tool_5.1652_TB3-850.zip
+[07:53:57]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_TB3-850
+[07:53:57]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:57]     [DA] DA_SWSEC.bin
+[07:53:57]     [Auth] auth_sv5.auth
+[07:53:57]     [DA] MTK_AllInOne_DA.bin
+[07:53:57] --- [27] Flash_Tool_TB-8304F.zip
+[07:53:57]   Downloading: Flash_Tool_TB-8304F.zip
+[07:53:59]   Extracted to: mtk_tools/extracted/Flash_Tool_TB-8304F
+[07:53:59]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:53:59]     [DA] DA_SWSEC.bin
+[07:53:59]     [Auth] auth_sv5.auth
+[07:53:59]     [DA] MTK_AllInOne_DA.bin
+[07:53:59] --- [28] SP_Flash_Tool_TB-7304F_NEW.zip
+[07:53:59]   Downloading: SP_Flash_Tool_TB-7304F_NEW.zip
+[07:54:03]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304F_NEW
+[07:54:03]     [Scatter] efuse_scatter.txt
+[07:54:03]     [Auth] auth_sv5.auth
+[07:54:03]     [DA] MTK_AllInOne_DA.bin
+[07:54:03] --- [29] SP_Flash_Tool_TB-7304IX_SVC.zip
+[07:54:03]   Downloading: SP_Flash_Tool_TB-7304IX_SVC.zip
+[07:54:07]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304IX_SVC
+[07:54:07]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:07]     [DA] DA_SWSEC.bin
+[07:54:07]     [Auth] auth_sv5.auth
+[07:54:07]     [DA] MTK_AllInOne_DA.bin
+[07:54:07] --- [30] MTK_Flash_tool_v5.1920.00.001_V1.zip
+[07:54:07]   Downloading: MTK_Flash_tool_v5.1920.00.001_V1.zip
+[07:54:12]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_v5.1920.00.001_V1
+[07:54:12]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:12]     [DA] DA_SWSEC.bin
+[07:54:12]     [DA] MTK_AllInOne_DA.bin
+[07:54:12] --- [31] MTK_Flash_tool_v5.1920.00.001_V1_update.zip
+[07:54:12]   Downloading: MTK_Flash_tool_v5.1920.00.001_V1_update.zip
+[07:54:15]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_v5.1920.00.001_V1_update
+[07:54:15]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:15]     [DA] DA_SWSEC.bin
+[07:54:15]     [DA] MTK_AllInOne_DA.bin
+[07:54:15] --- [32] SP_Flash_Tool_5.1652_M2.zip
+[07:54:15]   Downloading: SP_Flash_Tool_5.1652_M2.zip
+[07:54:17]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_M2
+[07:54:17]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:17]     [DA] DA_SWSEC.bin
+[07:54:17]     [Auth] auth_sv5.auth
+[07:54:17]     [DA] MTK_AllInOne_DA.bin
+[07:54:17] --- [33] MTK_Flash_Tool_v5.1916.zip
+[07:54:17]   Downloading: MTK_Flash_Tool_v5.1916.zip
+[07:54:19]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.1916
+[07:54:19]     [DA] MTK_AllInOne_DA_8765.bin
+[07:54:19]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:19]     [DA] DA_SWSEC.bin
+[07:54:19]     [DA] MTK_AllInOne_DA.bin
+[07:54:19] --- [34] MTK_flash_tool_V6_SVC.zip
+[07:54:19]   Downloading: MTK_flash_tool_V6_SVC.zip
+[07:54:20]   Extracted to: mtk_tools/extracted/MTK_flash_tool_V6_SVC
+[07:54:20]     [Auth] da.auth
+[07:54:20] --- [35] MTK_V5_Parsely_V1.zip
+[07:54:20]   Downloading: MTK_V5_Parsely_V1.zip
+[07:54:22]   Extracted to: mtk_tools/extracted/MTK_V5_Parsely_V1
+[07:54:22]     [Scatter] MT6761_Android_scatter.txt
+[07:54:22]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:22]     [DA] DA_SWSEC.bin
+[07:54:22]     [Auth] auth_sv5.auth
+[07:54:22]     [DA] MTK_AllInOne_DA.bin
+[07:54:22] --- [36] SP_Flash_Tool_V5_LTE.zip
+[07:54:22]   Downloading: SP_Flash_Tool_V5_LTE.zip
+[07:54:25]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_LTE
+[07:54:25]     [Auth] auth_sv5_t6100a_wifi.auth
+[07:54:25]     [Auth] auth_sv5_t6100a_lte.auth
+[07:54:25]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:25]     [DA] DA_SWSEC.bin
+[07:54:25]     [DA] MTK_AllInOne_DA.bin
+[07:54:25] --- [37] MTK_Flash_tool_v5.1920.00.001_V2.zip
+[07:54:25]   Downloading: MTK_Flash_tool_v5.1920.00.001_V2.zip
+[07:54:28]   Extracted to: mtk_tools/extracted/MTK_Flash_tool_v5.1920.00.001_V2
+[07:54:28]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:28]     [DA] DA_SWSEC.bin
+[07:54:28]     [DA] MTK_AllInOne_DA.bin
+[07:54:28] --- [38] MTK_V5_ParselyRefresh_V1.zip
+[07:54:28]   Downloading: MTK_V5_ParselyRefresh_V1.zip
+[07:54:30]   Extracted to: mtk_tools/extracted/MTK_V5_ParselyRefresh_V1
+[07:54:30]     [Scatter] MT6761_Android_scatter.txt
+[07:54:30]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:30]     [DA] DA_SWSEC.bin
+[07:54:30]     [Auth] auth_sv5.auth
+[07:54:30]     [DA] MTK_AllInOne_DA.bin
+[07:54:30] --- [39] SP_Flash_Tool_V5_TB330_POGOPIN.zip
+[07:54:30]   Downloading: SP_Flash_Tool_V5_TB330_POGOPIN.zip
+[07:54:34]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_TB330_POGOPIN
+[07:54:34]     [DA] MTK_AllInOne_DA-resign.bin
+[07:54:34]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:34]     [DA] DA_SWSEC.bin
+[07:54:34]     [Auth] auth_sv5.auth
+[07:54:34]     [DA] MTK_AllInOne_DA.bin
+[07:54:34] --- [40] MTK_Flash_Tool_TB132FU_SVC.zip
+[07:54:34]   Downloading: MTK_Flash_Tool_TB132FU_SVC.zip
+[07:54:37]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_TB132FU_SVC
+[07:54:37]     [Auth] auth_sv5_onyx.auth
+[07:54:37]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:37]     [DA] DA_SWSEC.bin
+[07:54:37]     [Auth] auth_sv5.auth
+[07:54:37]     [DA] MTK_AllInOne_DA_onyx_signed.bin
+[07:54:37]     [DA] MTK_AllInOne_DA.bin
+[07:54:37] --- [41] SP_Flash_Tool_V5_20240829_OTA15.zip
+[07:54:37]   Downloading: SP_Flash_Tool_V5_20240829_OTA15.zip
+[07:54:41]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_20240829_OTA15
+[07:54:41]     [Auth] auth_sv5_wt.auth
+[07:54:41]     [DA] MTK_AllInOne_DA-resign.bin
+[07:54:41]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:41]     [DA] DA_SWSEC.bin
+[07:54:41]     [DA] MTK_AllInOne_DA.bin
+[07:54:41] --- [42] MTK_flash_tool_V6_TB351.zip
+[07:54:41]   Downloading: MTK_flash_tool_V6_TB351.zip
+[07:54:43]   Extracted to: mtk_tools/extracted/MTK_flash_tool_V6_TB351
+[07:54:43]     [Auth] da.auth
+[07:54:43] --- [43] SP_Flash_Tool_V5.24_TB311.zip
+[07:54:43]   Downloading: SP_Flash_Tool_V5.24_TB311.zip
+[07:54:49]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.24_TB311
+[07:54:49]     [Scatter] MT6761_Android_scatter.txt
+[07:54:49]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:49]     [DA] DA_SWSEC.bin
+[07:54:49]     [Auth] auth_sv5.auth
+[07:54:49]     [DA] MTK_AllInOne_DA.bin
+[07:54:49] --- [44] SP_Flash_Tool_V5.24_TB305.zip
+[07:54:49]   Downloading: SP_Flash_Tool_V5.24_TB305.zip
+[07:54:54]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5.24_TB305
+[07:54:54]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:54]     [DA] DA_SWSEC.bin
+[07:54:54]     [Auth] auth_sv5.auth
+[07:54:54]     [DA] MTK_AllInOne_DA.bin
+[07:54:54] --- [45] SP_Flash_Tool_TB336.zip
+[07:54:54]   Downloading: SP_Flash_Tool_TB336.zip
+[07:54:56]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB336
+[07:54:56]     [Auth] da.auth
+[07:54:56] --- [46] SP_Flash_Tool_V2.zip
+[07:54:56]   Downloading: SP_Flash_Tool_V2.zip
+[07:54:57]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V2
+[07:54:57]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:54:57]     [DA] DA_SWSEC.bin
+[07:54:57]     [DA] MTK_AllInOne_DA.bin
+[07:54:57] --- [47] SP_Flash_Tool_exe_Windows_v5.1920.00.001.zip
+[07:54:57]   Downloading: SP_Flash_Tool_exe_Windows_v5.1920.00.001.zip
+[07:55:00]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1920.00.001
+[07:55:00]     [Auth] auth_sv5.auth
+[07:55:00]     [Auth] auth_sv5.auth
+[07:55:00]     [Auth] auth_sv5.auth
+[07:55:01]     [Auth] auth_sv5.auth
+[07:55:01]     [DA] MTK_AllInOne_DA.bin
+[07:55:01] --- [48] SP_Flash_Tool_exe_Windows_v6.20240517_XT2055.zip
+[07:55:01]   Downloading: SP_Flash_Tool_exe_Windows_v6.20240517_XT2055.zip
+[07:55:03]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v6.20240517_XT2055
+[07:55:03]     [Auth] auth_sv5.auth
+[07:55:03]     [Auth] auth_sv5.auth
+[07:55:03]     [Auth] auth_sv5.auth
+[07:55:03]     [Auth] auth_sv5.auth
+[07:55:03]     [Auth] auth_sv5.auth
+[07:55:03]     [DA] MTK_AllInOne_DA.bin
+[07:55:03] --- [49] SP_Flash_Tool_exe_Windows_A2016.zip
+[07:55:03]   Downloading: SP_Flash_Tool_exe_Windows_A2016.zip
+[07:55:06]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_A2016
+[07:55:06]     [DA] DA_SWSEC.bin
+[07:55:06] --- [50] SP_Flash_Tool_V5_MSC_20230809.zip
+[07:55:06]   Downloading: SP_Flash_Tool_V5_MSC_20230809.zip
+[07:55:07]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_MSC_20230809
+[07:55:07]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:07]     [Auth] BORA_All_Efused_Download_2216.auth
+[07:55:07]     [DA] DA_SWSEC.bin
+[07:55:07]     [DA] MTK_AllInOne_DA.bin
+[07:55:07] --- [51] MTK_Flash_Tool_v5.2104_P522.zip
+[07:55:07]   Downloading: MTK_Flash_Tool_v5.2104_P522.zip
+[07:55:10]   Extracted to: mtk_tools/extracted/MTK_Flash_Tool_v5.2104_P522
+[07:55:10]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:10]     [DA] DA_SWSEC.bin
+[07:55:10]     [Auth] auth_sv5.auth
+[07:55:10]     [DA] MTK_AllInOne_DA_p11.bin
+[07:55:10]     [DA] MTK_AllInOne_DA.bin
+[07:55:10] --- [52] PokerPlus_Flash_Tool_S1916.V1848.1.zip
+[07:55:10]   Downloading: PokerPlus_Flash_Tool_S1916.V1848.1.zip
+[07:55:16]   Extracted to: mtk_tools/extracted/PokerPlus_Flash_Tool_S1916.V1848.1
+[07:55:16]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:16]     [DA] DA_SWSEC.bin
+[07:55:16]     [DA] MTK_AllInOne_DA.bin
+[07:55:16] --- [53] SP_Flash_Tool_5.1652_M1.zip
+[07:55:16]   Downloading: SP_Flash_Tool_5.1652_M1.zip
+[07:55:19]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1652_M1
+[07:55:19]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:19]     [DA] DA_SWSEC.bin
+[07:55:19]     [DA] MTK_AllInOne_DA.bin
+[07:55:19] --- [54] RESEARCHDOWNLOAD_R21.0.0001.zip
+[07:55:19]   Downloading: RESEARCHDOWNLOAD_R21.0.0001.zip
+[07:55:20]   Extracted to: mtk_tools/extracted/RESEARCHDOWNLOAD_R21.0.0001
+[07:55:20] --- [55] SP_Flash_Tool_TB-7304F_CMB.zip
+[07:55:20]   Downloading: SP_Flash_Tool_TB-7304F_CMB.zip
+[07:55:22]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_TB-7304F_CMB
+[07:55:22]     [Auth] auth_sv5.auth
+[07:55:22]     [DA] MTK_AllInOne_DA.bin
+[07:55:22] --- [56] SP_Flash_Tool_exe_Windows_v5.1804_TB3-730_SVC.zip
+[07:55:22]   Downloading: SP_Flash_Tool_exe_Windows_v5.1804_TB3-730_SVC.zip
+[07:55:25]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_Windows_v5.1804_TB3-730_SVC
+[07:55:25]     [Scatter] MT6580_Android_scatter.txt
+[07:55:25]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:25]     [DA] DA_SWSEC.bin
+[07:55:25]     [Auth] auth_sv5.auth
+[07:55:25]     [DA] MTK_AllInOne_DA.bin
+[07:55:25] --- [57] SP_Flash_Tool_V6_TB373.zip
+[07:55:25]   Downloading: SP_Flash_Tool_V6_TB373.zip
+[07:55:26]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V6_TB373
+[07:55:26]     [Auth] da.auth
+[07:55:26] --- [58] SP_Flash_Tool_5.1644_Lacrosse_Auth.zip
+[07:55:26]   Downloading: SP_Flash_Tool_5.1644_Lacrosse_Auth.zip
+[07:55:28]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_5.1644_Lacrosse_Auth
+[07:55:28]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:28]     [DA] DA_SWSEC.bin
+[07:55:28]     [Auth] auth_sv5.auth
+[07:55:28]     [DA] MTK_AllInOne_DA.bin
+[07:55:28] --- [59] MTK_flash_tool_V6.zip
+[07:55:28]   Downloading: MTK_flash_tool_V6.zip
+[07:55:30]   Extracted to: mtk_tools/extracted/MTK_flash_tool_V6
+[07:55:30] --- [60] SP_Flash_Tool_exe_A1010a20.zip
+[07:55:30]   Downloading: SP_Flash_Tool_exe_A1010a20.zip
+[07:55:33]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_exe_A1010a20
+[07:55:33]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:33]     [DA] DA_SWSEC.bin
+[07:55:33]     [DA] MTK_AllInOne_DA.bin
+[07:55:33] --- [61] SP_Flash_Tool_XT1700XT1706.zip
+[07:55:33]   Downloading: SP_Flash_Tool_XT1700XT1706.zip
+[07:55:38]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_XT1700XT1706
+[07:55:38]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:38]     [DA] DA_SWSEC.bin
+[07:55:38]     [DA] MTK_AllInOne_DA.bin
+[07:55:38] --- [62] SP_Flash_Tool_V5_Wifi.zip
+[07:55:38]   Downloading: SP_Flash_Tool_V5_Wifi.zip
+[07:55:43]   Extracted to: mtk_tools/extracted/SP_Flash_Tool_V5_Wifi
+[07:55:43]     [Auth] auth_sv5_t6100a_wifi.auth
+[07:55:43]     [Auth] auth_sv5_t6100a_lte.auth
+[07:55:43]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:43]     [DA] DA_SWSEC.bin
+[07:55:43]     [DA] MTK_AllInOne_DA.bin
+[07:55:43] --- [63] MTK_SP_Flash_Tool_V5_TB370_V1.zip
+[07:55:43]   Downloading: MTK_SP_Flash_Tool_V5_TB370_V1.zip
+[07:55:47]   Extracted to: mtk_tools/extracted/MTK_SP_Flash_Tool_V5_TB370_V1
+[07:55:47]     [Scatter] MT6761_Android_scatter.txt
+[07:55:47]     [DA] MTK_AllInOne_DA-resign.bin
+[07:55:47]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:47]     [DA] DA_SWSEC.bin
+[07:55:47]     [Auth] auth_sv5.auth
+[07:55:47]     [DA] MTK_AllInOne_DA.bin
+[07:55:47] --- [64] MTK_SP_Flash_Tool_V5_TB370.zip
+[07:55:47]   Downloading: MTK_SP_Flash_Tool_V5_TB370.zip
+[07:55:51]   Extracted to: mtk_tools/extracted/MTK_SP_Flash_Tool_V5_TB370
+[07:55:51]     [Scatter] MT6761_Android_scatter.txt
+[07:55:51]     [DA] MTK_AllInOne_DA-resign.bin
+[07:55:51]     [DA] DA_SWSEC_CRYPTO20.bin
+[07:55:51]     [DA] DA_SWSEC.bin
+[07:55:51]     [Auth] auth_sv5.auth
+[07:55:51]     [DA] MTK_AllInOne_DA.bin
+[07:55:51] 
+[07:55:51] =================================================================
+[07:55:51]  Summary
+[07:55:51] =================================================================
+[07:55:51]  MTK archives found in list : 64
+[07:55:51]  Archives successfully unzipped : 64
+[07:55:51]  MT6768-related files collected : 223
+[07:55:51] 
+[07:55:51]  Output tree:
+[07:55:51]    Full extractions -> mtk_tools/extracted
+[07:55:51]    MT6768 / DA      -> mtk_tools/mt6768/DA
+[07:55:51]    MT6768 / SVC     -> mtk_tools/mt6768/SVC
+[07:55:51]    MT6768 / Auth    -> mtk_tools/mt6768/Auth
+[07:55:51]    MT6768 / Scatter -> mtk_tools/mt6768/Scatter
+[07:55:51]    MT6768 / Other   -> mtk_tools/mt6768/Other
+[07:55:51]  Full log            -> mtk_tools/extract_mtk.log
