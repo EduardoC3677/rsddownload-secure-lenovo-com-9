@@ -1,0 +1,206 @@
+# Links relacionados con Moto G05 / Lamu / LamuC / LamuG / XT2523 / MT6768 / Tools MTK / Flash Tool MTK
+# Extraídos de los archivos TCT y download_links.txt del repositorio
+# Fecha de extracción: 2026-03-04
+
+# =============================================================================
+# SECCIÓN 1: FIRMWARE / ROM - Moto G05 (Lamu / LamuG / LamuC / LamuLG)
+# Chipset: MT6768 | Codenames: lamu, lamug, lamuc, lamulg
+# Modelo: XT2523
+# =============================================================================
+
+# --- Lamu / LamuG (lamu_g) ---
+# fastboot_lamu_g_user_15 - Android 15 - VVTAS35.51-137-2 (release)
+https://rsddownload-secure.lenovo.com/fastboot_lamu_g_user_15_VVTAS35.51-137-2_f1c510_release-keys.zip
+
+# fastboot_lamu_g_user_15 - Android 15 - VVTAS35.51-137-2-1 (release)
+https://rsddownload-secure.lenovo.com/fastboot_lamu_g_user_15_VVTAS35.51-137-2-1_c99c2a_release-keys.zip
+
+# fastboot_lamu_g_user_15 - Android 15 - VVTA35.51-137-10 (release)
+https://rsddownload-secure.lenovo.com/fastboot_lamu_g_user_15_VVTA35.51-137-10_cabf9d_release-keys.zip
+
+# --- LamuC (lamuc) ---
+# fastboot_lamuc_g_user_15 - Android 15 - VVTB35.41-41 (release)
+https://rsddownload-secure.lenovo.com/fastboot_lamuc_g_user_15_VVTB35.41-41_93e397_release-keys.zip
+
+# fastboot_lamuc_g_user_15 - Android 15 - VVTB35.41-41 - elabel XT2623-2 demogb
+https://rsddownload-secure.lenovo.com/fastboot_lamuc_g_user_15_VVTB35.41-41_93e397_release-keys_elabel_XT2623-2_demogb.zip
+
+# fastboot_lamuc_g_user_15 - Android 15 - VVTB35.41-47 (release)
+https://rsddownload-secure.lenovo.com/fastboot_lamuc_g_user_15_VVTB35.41-47_6eb4a4_release-keys.zip
+
+# --- LamuLG (lamulg) ---
+# fastboot_lamulg_g_user_14 - Android 14 - UUTBS34.40-41-3 (signed) - via S3 directo
+https://moto-rsd-prod-secure.s3.dualstack.us-east-1.amazonaws.com/fastboot_lamulg_g_user_14_UUTBS34.40-41-3_40-41-3_release-keys_FLASH_sign_20260129204648.zip
+
+# fastboot_lamulg_g_user_14 - Android 14 - UUTBS34.40-41-3 (signed) - via rsddownload (con firma AWS)
+https://rsddownload-secure.lenovo.com/fastboot_lamulg_g_user_14_UUTBS34.40-41-3_40-41-3_release-keys_FLASH_sign_20260129204648.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032128Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2c00c959a7a7b123ce3474d9a718374a974e8200f94e0b9af38e6a582cc6bd95
+
+# =============================================================================
+# SECCIÓN 2: FLASH TOOLS ESPECÍFICOS PARA LAMU / MT6768
+# Flash Tool Console (herramienta LMSA para Moto G05)
+# =============================================================================
+
+# Lamu Flash Tool Console LMSA 5.2404.03 Release1 (para Lamu / MT6768)
+https://rsddownload-secure.lenovo.com/Lamu_Flash_Tool_Console_LMSA_5.2404.03_Release1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032129Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1b7a2954b54067c88316f08d8cee9442453a24cb80dc107c0a27cb81757d0e97
+
+# LamuC Flash Tool Console LMSA 5.2404.03 Release (para LamuC)
+https://rsddownload-secure.lenovo.com/LamuC_FlashTool_Console_LMSA_5.2404.03_release.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032129Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=80cf27ffcf2b712147f1ad5cab0a5a4f605e542a4ab5875db976cc7322f51332
+
+# LamuLiteGo Flash Tool Console LMSA 5.2404.04 Release (para LamuLiteGo)
+https://rsddownload-secure.lenovo.com/LamuLiteGo_FlashTool_Console_LMSA_5.2404.04_Release.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032128Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a042024ebf21a1cd04485cbbab13c79f6f3e03f7f0f4baf211d566ff2a4014f5
+
+# =============================================================================
+# SECCIÓN 3: FLASH TOOLS PARA MTK (General / MT6768 compatible)
+# MTK SP Flash Tool - varias versiones
+# =============================================================================
+
+# MTK Flash Tool V6 (versión principal SVC - recomendada para Lamu/MT6768)
+https://download.lenovo.com/lsa/Resource/Tools/MTK_flash_tool_V6_SVC.zip
+
+# MTK Flash Tool V6 (versión genérica)
+https://download.lenovo.com/lsa/Resource/Tools/MTK_flash_tool_V6.zip
+
+# MTK Flash Tool V6 TB351
+https://download.lenovo.com/lsa/Resource/Tools/MTK_flash_tool_V6_TB351.zip
+
+# MTK Flash Tool v5.2104 P522 (via rsddownload con firma AWS)
+https://rsddownload-secure.lenovo.com/MTK_Flash_Tool_v5.2104_P522.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T033641Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e51718a05a9d6ba77a4f26ea14eecdd3bb49cca779860c3dfade1266155db7d4
+
+# MTK Flash Tool v5.2104 TB-J616
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_Tool_v5.2104_TB-J616.zip
+
+# MTK Flash Tool V5.2052 YT-J706
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_Tool_V5.2052_YT-J706.zip
+
+# MTK Flash Tool v5.2052 8506 (TAB)
+https://download.lenovo.com/lsa/Resource/Tools/TAB/MTK_Flash_Tool_v5.2052_8506.zip
+
+# MTK Flash Tool V5.2036 V1
+https://download.lenovo.com/lsa/Resource/Tools/V1/MTK_Flash_tool_V5.2036.zip
+
+# MTK Flash tool v5.1920.00.001 V1
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_tool_v5.1920.00.001_V1.zip
+
+# MTK Flash tool v5.1920.00.001 V1 Update
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_tool_v5.1920.00.001_V1_update.zip
+
+# MTK Flash tool v5.1920.00.001 V2
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_tool_v5.1920.00.001_V2.zip
+
+# MTK Flash Tool v5.1916
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_Tool_v5.1916.zip
+
+# MTK Flashtool v5.1616.00.000
+https://download.lenovo.com/lsa/Resource/Tools/MTK_flashtool_v5.1616.00.000.zip
+
+# MTK SP Flash Tool V5 TB370 V1
+https://download.lenovo.com/lsa/Resource/Tools/MTK_SP_Flash_Tool_V5_TB370_V1.zip
+
+# MTK SP Flash Tool V5 TB370
+https://download.lenovo.com/lsa/Resource/Tools/V1/MTK_SP_Flash_Tool_V5_TB370.zip
+
+# MTK Flash Tool Asha SVC
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_Tool_Asha_SVC.zip
+
+# MTK Flash Tool Asha (TAB)
+https://download.lenovo.com/lsa/Resource/Tools/TAB/MTK_Flash_Tool_Asha.zip
+
+# MTK Flash Tool TB132FU SVC
+https://download.lenovo.com/lsa/Resource/Tools/MTK_Flash_Tool_TB132FU_SVC.zip
+
+# TN MTK TSDC Flash Tool V5.2316.11 RSA V9 Win10/11 (via rsddownload con firma AWS)
+https://rsddownload-secure.lenovo.com/TN_MTK_TSDC_FlashTool_V5.2316.11_RSA_V9_Win10_11.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032122Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=601f934b5c89c41100cd8a08ba73230a66a4c4e7f23ab8a35ec9c3d3f17a5799
+
+# =============================================================================
+# SECCIÓN 4: ARCHIVOS TCT (LMSA Rescue Scripts) - Lamu / MT6768
+# Archivos JSON de procedimientos de rescate para Moto G05 (Lamu/MT6768)
+# =============================================================================
+
+# TCT Rescue: Lamu FastbootConnect V1 + DAUpdate + DriverPrompt (20260112)
+# Chipset: MT6768 | DA file: DA_A15_lamu_FORBID_SIGNED.bin | Scatter: MT6768_Android_scatter.txt
+https://rsddownload-secure.lenovo.com/Rescue_MTK_Lamu_FastbootConnect_V1_DAUpdate_DriverPrompt_20260112.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032129Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=08544f3db0b47996b3332387a6001d78f543218d7021b4a8f7f57b178ea398ff
+
+# TCT Rescue: Lamu26 FastbootConnect V1 (20260107)
+https://rsddownload-secure.lenovo.com/Rescue_MTK_Lamu26_FastbootConnect_V1_20260107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032129Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3970ee602282a0861ce9916f3ceb5eeb843e8d3f350c803bc4f9e7d66e68ca06
+
+# TCT Rescue: LamuLiteGo FastbootConnect V1 + DAUpdate + PortMonitor (20251219)
+https://rsddownload-secure.lenovo.com/Rescue_MTK_LamuLiteGo_FastbootConnect_V1_DAUpdate_PortMonitor_20251219.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032128Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604799&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=30b93a927e25a8f1c2d3e64ad3625dc33fdd48faf3d48785830c441022d41a21
+
+# =============================================================================
+# SECCIÓN 5: ARCHIVOS TCT (LMSA Rescue Scripts) - MTK General
+# Procedimientos de rescate para dispositivos MTK (compatibles con MT6768)
+# =============================================================================
+
+# TCT Rescue MTK: USB pmethod7 phone V3 penang command AWS (1105)
+https://rsddownload-secure.lenovo.com/Rescue_MTK_USB_S3_pmethod7_phone_V3_penang_command_AWS_1105.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032121Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=623a535b8684e238ef9ad20e70441c3a7fbe826f6b4f793f68fd0f45ab41e86d
+
+# TCT Rescue MTK: USB pmethod7 phone (1212)
+https://rsddownload-secure.lenovo.com/Rescue_MTK_USB_S3_pmethod7_phone_1212.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032121Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1fc9f8f5998bb6cbd86841428abd24b42900094fc074ea3e2e561abc86ec11d2
+
+# TCT Rescue MTK: RemoveBattery S3 pmethod8 phone
+https://rsddownload-secure.lenovo.com/Rescue_MTK_RemoveBattery_S3_pmethod8_phone.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032059Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f609ebabfd9bd53421f7c39296686c041a2ad4b71e37dbc52b050efd4a05f553
+
+# TCT Rescue MTK: Fogo4G FastbootConnect PortMonitor (20251029)
+https://rsddownload-secure.lenovo.com/Rescue_MTK_Fogo4G_FastbootConnect_PortMonitor_20251029_1.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032122Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1bb73e4c0613ce8f3fc7b93043608b37450fc066118fae7761666fec9185c1a3
+
+# TCT Rescue MTK: Malta MTK S3 pmethod7 phone-7 (20250620)
+https://rsddownload-secure.lenovo.com/Rescue_Malta_MTK_S3_pmethod7_phone-7_20250620.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032142Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d02b30b392b0efbd75c65abba74d48a42f9869c4dac2c8a14944584bb7ba9f36
+
+# TCT Rescue MTK: Malta MTK S3 pmethod7 phone-7 (20260304)
+https://rsddownload-secure.lenovo.com/Rescue_Malta_MTK_S3_pmethod7_phone-7_20260304.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T041756Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6c9f2677ca34b1f38bda72da63be74987609601985161b2451d454be5ca70995
+
+# TCT RescueMTK: M1 GIF QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_M1_GIF_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032505Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f2469d5e571b6e5b4ea35aa2c97bd12858a68f3a437bb89c2a9b1d979b208cf3
+
+# TCT RescueMTK: M1 encryption GIF 20M QUITCondin Retry (20251106)
+https://rsddownload-secure.lenovo.com/RescueMTK_M1_encryption_GIF_20M_QUITCondin_Retry_20251106.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032507Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eab56b4745270fa7132f75b588e7012b80134b67759e15dcb4985cd5c1a501ea
+
+# TCT RescueMTK: Wait M1 GIF QUITCondin Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_Wait_M1_GIF_QUITCondin_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032457Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=77b8d4abda36d0e6e410daa3f4716603f084ab4755aa900bccfe371d7ad459d1
+
+# TCT RescueMTK: M4 GIF QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_M4_GIF_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032458Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c88742cb146b2ccd2328bc4711b784d2e718bb435d439d14f5e9688a1b6186f5
+
+# TCT RescueMTK: M4 encryption GIF 20M QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_M4_encryption_GIF_20M_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032458Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdae91f1755d1c62aa2488ed2009cd271cfd960931869519e785d496a3c2e375
+
+# TCT RescueMTK: M4 encryption GIF 20M QUITCondi Retry SVC
+https://rsddownload-secure.lenovo.com/RescueMTK_M4_encryption_GIF_20M_QUITCondi_Retry_SVC.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T050258Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ded8333f5c39e83a880578bb6400d64ab58692e45695302d64388b42d1f980f1
+
+# TCT Rescue MTK: Wait M4 GIF QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/Rescue_MTK_Wait_M4_GIF_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T042651Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=50c03499605afc3526a9822767d439c3dc2fbe4e3058471457f1c00e2d82141b
+
+# TCT RescueMTK: M5 GIF QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_M5_GIF_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032526Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=75dd02184066e3d14d58b5469b1ff3d097627d8502d5a7b2669f53afd33896a6
+
+# TCT RescueMTK: SPV6 M1 GIF QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_SPV6_M1_GIF_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T042716Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2b80dc633c165b153e6987264a310cdf2bfa29afd087d41286cf089a42850968
+
+# TCT RescueMTK: SPV6 M1 encryption GIF 20M QUITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_SPV6_M1_encryption_GIF_20M_QUITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032514Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3c87961bcd24878614cddf527756cb7bcea3a7a9e1dcb34ada07e5123d13b135
+
+# TCT RescueMTK: SPV6 M4 encryption GIF 20M QUITCondi (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_SPV6_M4_encryption_GIF_20M_QUITCondi_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032524Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=037377ffd825c99a1d364fa50713cbc3c7733d0fc52cbfdff1ac129088c8d81f
+
+# TCT RescueMTK: PB2-650 M4 Countrycode GIF QUIITCondi Retry (20251107)
+https://rsddownload-secure.lenovo.com/RescueMTK_PB2-650_M4_Countrycode_GIF_QUIITCondi_Retry_20251107.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032504Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=635420de7afa559d3c8db3f3ce6fbcfc38f8a65136394bd9ca1257afcbfc3ed0
+
+# TCT RescueMTK: Koleos P1ma40 SVC S3 pmethod7 phone2
+https://rsddownload-secure.lenovo.com/RescueMTK_Koleos-P1ma40_SVC_S3_pmethod7_phone2.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T032059Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=639b64e922db62f5107ed525934e2fc5e56bb1ce8c159f6c986710e166cff2d8
+
+# TCT RescueMTK: NEW Taichi-B SVC S3 pmethod7 phone2
+https://rsddownload-secure.lenovo.com/RescueMTK_NEW_Taichi-B_SVC_S3_pmethod7_phone2.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260304T033215Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Credential=AKIAS37TSJMJUUCJCY4T%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=435f55d06aa20a7d09370f45b549e00286c82af9c4c4bca85f2294c0f94681b0
+
+# =============================================================================
+# NOTAS TÉCNICAS
+# =============================================================================
+# Dispositivo: Moto G05
+# Codename: lamu (lamu_g = global, lamuc = China, lamulg = LG variant)
+# Chipset: MediaTek MT6768 (Helio G85)
+# Número de modelo: XT2523
+# Flash Method: MTK SP Flash Tool / LMSA Flash Tool Console
+# DA file: DA_A15_lamu_FORBID_SIGNED.bin
+# Scatter file: MT6768_Android_scatter.txt
+# Reserve userdata scatter: MT6768_Android_scatter_reserve_userdata.txt
+# MTK USB VID: VID_0E8D
+# Flash driver: MediaTek Inc. (oficial requerido)
