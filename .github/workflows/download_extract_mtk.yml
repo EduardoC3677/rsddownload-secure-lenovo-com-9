@@ -1,0 +1,109 @@
+name: Download & Extract MTK Tools (MT6768)
+
+on:
+  workflow_dispatch:   # run manually from the Actions tab at any time
+  push:
+    branches:
+      - main
+      - 'copilot/**'
+    paths:
+      - 'lmsa_tool_urls.txt'        # re-run when the URL list changes
+      - 'extract_mtk_da_mt6768.sh'  # re-run when the script itself changes
+
+jobs:
+  extract-mtk:
+    name: Download, extract and push MTK tools to repo
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # 60+ archives; allow plenty of time
+
+    permissions:
+      contents: write   # needed to commit and push back
+
+    steps:
+      # ── 1. checkout ──────────────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. dependencies ──────────────────────────────────────────────────────
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends curl unzip p7zip-full
+
+      # ── 3. run the extraction script ─────────────────────────────────────────
+      - name: Download and extract all MTK tools
+        run: |
+          chmod +x extract_mtk_da_mt6768.sh
+          ./extract_mtk_da_mt6768.sh lmsa_tool_urls.txt mtk_tools
+
+      # ── 4. remove raw ZIPs (too large to store in the repo) ──────────────────
+      - name: Remove raw ZIP cache
+        run: rm -rf mtk_tools/_zips
+
+      # ── 5. print a summary ───────────────────────────────────────────────────
+      - name: Summary of extracted files
+        run: |
+          echo "=== Extracted tool directories ==="
+          ls mtk_tools/extracted/ 2>/dev/null || echo "(none)"
+          echo ""
+          echo "=== MT6768 DA files ==="
+          ls mtk_tools/mt6768/DA/      2>/dev/null || echo "(none found)"
+          echo ""
+          echo "=== MT6768 SVC files ==="
+          ls mtk_tools/mt6768/SVC/     2>/dev/null || echo "(none found)"
+          echo ""
+          echo "=== MT6768 Auth files ==="
+          ls mtk_tools/mt6768/Auth/    2>/dev/null || echo "(none found)"
+          echo ""
+          echo "=== MT6768 Scatter files ==="
+          ls mtk_tools/mt6768/Scatter/ 2>/dev/null || echo "(none found)"
+          echo ""
+          echo "=== MT6768 Other files ==="
+          ls mtk_tools/mt6768/Other/   2>/dev/null || echo "(none found)"
+
+      # ── 6. commit and push everything back to the repository ─────────────────
+      - name: Commit and push extracted files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add mtk_tools/
+
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit – repo already up to date."
+          else
+            git commit -m "chore: extracted MTK tools and MT6768 DA/SVC/auth/scatter files"
+            git push origin HEAD
+          fi
+
+      # ── 7. upload full extracted tools as a workflow artifact ─────────────────
+      - name: Upload extracted tools artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mtk-tools-extracted
+          path: mtk_tools/extracted/
+          if-no-files-found: warn
+          retention-days: 30
+
+      # ── 8. upload MT6768-specific files as a separate artifact ────────────────
+      - name: Upload MT6768 files artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mtk-tools-mt6768
+          path: mtk_tools/mt6768/
+          if-no-files-found: warn
+          retention-days: 90
+
+      # ── 9. upload the extraction log ──────────────────────────────────────────
+      - name: Upload extraction log
+        if: always()   # upload even if a previous step failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: mtk-extract-log
+          path: mtk_tools/extract_mtk.log
+          if-no-files-found: ignore
+          retention-days: 14
+

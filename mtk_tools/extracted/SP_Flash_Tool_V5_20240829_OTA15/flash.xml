@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<flashtool-config version="2.0"> 
+    <general> 
+        <chip-name>MT6768</chip-name> 
+        <storage-type>EMMC</storage-type> 
+        <download-agent>MTK_AllInOne_DA-resign.bin</download-agent> 
+        <authentication>auth_sv5_wt.auth</authentication> 
+        <certification></certification> 
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Fatal" da_log_channel="USB" timeout-count="3600000" com-port="" storage_life_cycle_check="true" />
+        <checksum-level>usb</checksum-level>
+        <log-info log_on="true" log_path="C:\ProgramData\SP_FT_Logs" clean_hours="744" />
+    </general>
+    <commands>
+        <firmware-upgrade>
+            <scene>FIRMWARE_UPGRADE</scene>
+            <readback>
+                <physical-readback is-physical-readback="false" />
+            </readback>
+            <format validation="false" physical="false" erase-flag="NormalErase" auto-format="true" auto-format-flag="FormatAll" />
+            <da-download-all />
+            <write-memory>
+                <write-memory-item input-mode="FromFile" program-mode="PageOnly" addr-mode="LogicalAddress" address="0x000000001f600000" input-length="0x00000000" part-id="0" is_by_sram="0"></write-memory-item>
+            </write-memory>
+        </firmware-upgrade>
+    </commands>
+</flashtool-config>

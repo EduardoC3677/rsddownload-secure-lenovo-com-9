@@ -1,0 +1,63 @@
+========== Efuse Common Setting ==========
+emmc_boot_dis = off
+nand_boot_dis = off
+nand_boot_speedup_dis = off
+pid_vid_custom_en = off
+ufs_boot_dis = off
+efuse_sf_boot_dis = off
+sdmmc_boot_dis = off
+sbc_pub_hash_dis = off
+sbc_pub_hash1_dis = off
+sbc_pub_hash2_dis = off
+sbc_pub_hash3_dis = off
+sbc_pubk_hash_fa_dis = off
+sbc_pubk_hash1_fa_dis = off
+sbc_pubk_hash2_fa_dis = off
+sbc_pubk_hash3_fa_dis = off
+sbc_pubk_hash_mtk_fa_dis = off
+fa_mode_en = off
+spare = 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+usbdl_type = 0
+
+========== Efuse Secure Setting ==========
+acc_en = off
+sbc_en = on
+daa_en = on
+sla_en = off
+ack_en = off
+jtag_dis = off
+jtag_sw_con = off
+rom_cmd_dis = off
+dbgport_lock_dis = off
+jtag_sec_passwd_en = off
+md1_sbc_en = off
+c2k_sbc_en = off
+pl_ar_en = off
+pk_cus_en = off
+ac_key = 44332211 88776655 CCBBAA99 FFFFEEDD 
+sbc_pub_key_hash = 7AD55F61 4072A720 6C2E9BE4 E1D06FF6 930871F4 25D95ED6 C336271F D94D1DB3 
+
+========== Efuse Lock Setting ==========
+common_ctrl_lock = off
+usb_id_lock = off
+spare_lock = off
+sec_ctrl_lock = off
+ackey_lock = off
+sbc_pubk_hash_lock = off
+sec_msc_lock = off
+custk_lock = off
+oem_lock = off
+sbc_pubk_hash1_lock = off
+sbc_pubk_hash2_lock = off
+sbc_pubk_hash3_lock = off
+cust_crypt_data_lock = off
+
+==========Efuse Extra Setting =======
+C_LOCK = 0
+C_CTRL_0 = 0
+C_CTRL_1 = 0
+C_CTRL_2 = 0
+C_CTRL_3 = 0
+C_DATA_0 = 00000000 00000000 
+C_DATA_1 = 00000000 00000000 
+

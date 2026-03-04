@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+  <general>
+    <chip-name>MT6739</chip-name>
+    <storage-type>EMMC</storage-type>
+    <download-agent>
+      MTK_AllInOne_DA.bin
+    </download-agent>
+    <scatter>
+      MT6739_Android_scatter.txt
+    </scatter>
+    <rom-list>
+      <rom index="0" enable="true">
+        preloader_mt8765_P.bin
+      </rom>
+    </rom-list>
+    <connection
+      type="BromUSB"
+      high-speed="false"
+  />
+  </general>
+  <commands>
+    <efuse>
+      <common-ctrl
+        Disable_EMMC_boot="false"
+        Disable_NAND_boot="false"
+        Disable_NAND_boot_speedup="false"
+        USB_download_type="0"/>
+      <secure-ctrl
+        Enable_ACC="false"
+        Enable_ACK="false"
+        Enable_SBC="true"
+        Enable_SLA="false"
+        Enable_DAA="false"
+        Disable_JTAG="false"
+        Enable_SW_JTAG_CON="false"/>
+      
+      <sbc-pub-key>
+      	<key-type>pss</key-type>
+        <pub-key-e>010001</pub-key-e>
+        <pub-key-n>
+          C028A3DD9570F1C29C3A2D48B591F58AB4CDF251950E9F330828C8DEF9C56E0A139FA7467743A9B7659B88A474DB36329BF3CB31DEBF93A1F76C0F4B62CF92C1E7551462E32A7DEA0A389EBF1BAEF8E7C74B6DAAF7BE1887A8A43BEB39451072350E5706DDFFE73236E6B642D65A0296509A332C8C6595470EE0CAB481F9D2C2C1DC7B4CB564A7356DF379F99156E2E88D9E49672AFA2368EECFB5A09D34635C205C650804DA633E01F14B33522F7991FF5F10BF911A278A42A5C8DA0E1CBEDF3035D61FDDE641F2306ABCF8F3D0CC17C1F3360DF130D139979F6FB5098885EE87D571C0351C9041C1EF3C2C2957225739E995DB45E8CB5EE0FF8682E176868B
+        </pub-key-n>
+      </sbc-pub-key>
+      
+      <common-lock
+        com_ctrl_lock="false"
+        usb_id_lock="false"/>
+		
+      <secure-lock
+        sec_attr_lock="true"
+        ackey_lock="false"
+        sbc_pubk_hash_lock="true"/>
+      <usb-id vid="0000" pid="0000"/>
+	  <!--<ac-key>112233445566778899AABBCCDDEEFFFF</ac-key> -->  
+         
+      <c_ctrl_0
+  	 	  c2k_sbc_en="false"
+  	 	  md1_sbc_en="false" />
+		  
+      <read-back
+        dir="."
+        name="efuse_dump.txt"
+        time-prefix="false"/>
+    </efuse>
+  </commands>
+</flashtool-config>

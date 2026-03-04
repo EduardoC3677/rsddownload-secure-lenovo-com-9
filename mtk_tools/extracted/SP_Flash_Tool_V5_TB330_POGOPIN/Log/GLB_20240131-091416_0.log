@@ -1,0 +1,8 @@
+[00000001] [09:14:16:036832] [Tid0x00063ae8] [info] -->[C1] flashtool_get_lib_info #(flashtoolex_api.cpp, line:318)
+[00000002] [09:14:16:048800] [Tid0x00063ae8] [debug] ==================================================================================================================================
+[00000003] [09:14:16:049807] [Tid0x00063ae8] [debug] flashtool_get_lib_info(): BROM_DLL_v7.2316.01 [Official-Build](Release Version)
+[00000004] [09:14:16:049807] [Tid0x00063ae8] [debug] flashtool_get_lib_info(): build date:  2023/04/17 12:27:00
+[00000005] [09:14:16:049807] [Tid0x00063ae8] [debug] flashtool_get_lib_info(): change list: 614131
+[00000006] [09:14:16:049807] [Tid0x00063ae8] [debug] flashtool_get_lib_info(): build owner: jiming.wang
+[00000007] [09:14:16:049807] [Tid0x00063ae8] [debug] ==================================================================================================================================
+[00000008] [09:14:16:049807] [Tid0x00063ae8] [info] <--[C1] flashtool_get_lib_info

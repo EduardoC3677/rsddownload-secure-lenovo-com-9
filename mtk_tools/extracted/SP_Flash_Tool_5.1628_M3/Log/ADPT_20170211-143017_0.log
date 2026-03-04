@@ -1,0 +1,230 @@
+[0000001] [14:30:17:218750] [Tid0x00001664] [debug] -->[C1] DL_LoadScatter #./api/api.cpp (line:2601)
+[0000002] [14:30:17:250000] [Tid0x00001664] [debug] used lib version: 1
+[0000003] [14:30:17:250000] [Tid0x00001664] [debug] <--[C1] DL_LoadScatter
+[0000004] [14:30:17:250000] [Tid0x00001664] [debug] -->[C2] DL_AutoLoadRomImages #./api/api.cpp (line:2790)
+[0000005] [14:30:17:343750] [Tid0x00001664] [debug] <--[C2] DL_AutoLoadRomImages
+[0000006] [14:30:17:375000] [Tid0x000004c0] [debug] -->[C3] DL_GetCount #./api/api.cpp (line:2710)
+[0000007] [14:30:17:375000] [Tid0x000004c0] [debug] <--[C3] DL_GetCount
+[0000008] [14:30:17:375000] [Tid0x000004c0] [debug] -->[C4] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000009] [14:30:17:375000] [Tid0x000004c0] [debug] <--[C4] DL_Rom_GetInfoAll
+[0000010] [14:30:17:375000] [Tid0x000004c0] [debug] -->[C5] DL_GetScatterInfo #./api/api.cpp (line:2811)
+[0000011] [14:30:17:375000] [Tid0x000004c0] [debug] <--[C5] DL_GetScatterInfo
+[0000012] [14:30:17:375000] [Tid0x000004c0] [debug] -->[C6] DL_GetCount #./api/api.cpp (line:2710)
+[0000013] [14:30:17:375000] [Tid0x000004c0] [debug] <--[C6] DL_GetCount
+[0000014] [14:30:17:375000] [Tid0x000004c0] [debug] -->[C7] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000015] [14:30:17:375000] [Tid0x000004c0] [debug] <--[C7] DL_Rom_GetInfoAll
+[0000016] [14:30:17:390625] [Tid0x000004c0] [debug] -->[C8] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000017] [14:30:17:390625] [Tid0x000004c0] [debug] <--[C8] DL_Rom_SetEnableAttr
+[0000018] [14:30:17:390625] [Tid0x000004c0] [debug] -->[C9] DL_GetCount #./api/api.cpp (line:2710)
+[0000019] [14:30:17:390625] [Tid0x000004c0] [debug] <--[C9] DL_GetCount
+[0000020] [14:30:17:390625] [Tid0x000004c0] [debug] -->[C10] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000021] [14:30:17:390625] [Tid0x000004c0] [debug] <--[C10] DL_Rom_GetInfoAll
+[0000022] [14:30:17:406250] [Tid0x000004c0] [debug] -->[C11] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000023] [14:30:17:406250] [Tid0x000004c0] [debug] <--[C11] DL_Rom_SetEnableAttr
+[0000024] [14:30:17:406250] [Tid0x000004c0] [debug] -->[C12] DL_GetCount #./api/api.cpp (line:2710)
+[0000025] [14:30:17:406250] [Tid0x000004c0] [debug] <--[C12] DL_GetCount
+[0000026] [14:30:17:406250] [Tid0x000004c0] [debug] -->[C13] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000027] [14:30:17:406250] [Tid0x000004c0] [debug] <--[C13] DL_Rom_GetInfoAll
+[0000028] [14:30:17:406250] [Tid0x000004c0] [debug] -->[C14] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000029] [14:30:17:406250] [Tid0x000004c0] [debug] <--[C14] DL_Rom_SetEnableAttr
+[0000030] [14:30:17:406250] [Tid0x000004c0] [debug] -->[C15] DL_GetCount #./api/api.cpp (line:2710)
+[0000031] [14:30:17:406250] [Tid0x000004c0] [debug] <--[C15] DL_GetCount
+[0000032] [14:30:17:406250] [Tid0x000004c0] [debug] -->[C16] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000033] [14:30:17:406250] [Tid0x000004c0] [debug] <--[C16] DL_Rom_GetInfoAll
+[0000034] [14:30:17:421875] [Tid0x000004c0] [debug] -->[C17] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000035] [14:30:17:421875] [Tid0x000004c0] [debug] <--[C17] DL_Rom_SetEnableAttr
+[0000036] [14:30:17:421875] [Tid0x000004c0] [debug] -->[C18] DL_GetCount #./api/api.cpp (line:2710)
+[0000037] [14:30:17:421875] [Tid0x000004c0] [debug] <--[C18] DL_GetCount
+[0000038] [14:30:17:421875] [Tid0x000004c0] [debug] -->[C19] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000039] [14:30:17:421875] [Tid0x000004c0] [debug] <--[C19] DL_Rom_GetInfoAll
+[0000040] [14:30:17:437500] [Tid0x000004c0] [debug] -->[C20] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000041] [14:30:17:437500] [Tid0x000004c0] [debug] <--[C20] DL_Rom_SetEnableAttr
+[0000042] [14:30:17:437500] [Tid0x000004c0] [debug] -->[C21] DL_GetCount #./api/api.cpp (line:2710)
+[0000043] [14:30:17:437500] [Tid0x000004c0] [debug] <--[C21] DL_GetCount
+[0000044] [14:30:17:437500] [Tid0x000004c0] [debug] -->[C22] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000045] [14:30:17:437500] [Tid0x000004c0] [debug] <--[C22] DL_Rom_GetInfoAll
+[0000046] [14:30:17:437500] [Tid0x000004c0] [debug] -->[C23] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000047] [14:30:17:437500] [Tid0x000004c0] [debug] <--[C23] DL_Rom_SetEnableAttr
+[0000048] [14:30:17:437500] [Tid0x000004c0] [debug] -->[C24] DL_GetCount #./api/api.cpp (line:2710)
+[0000049] [14:30:17:437500] [Tid0x000004c0] [debug] <--[C24] DL_GetCount
+[0000050] [14:30:17:437500] [Tid0x000004c0] [debug] -->[C25] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000051] [14:30:17:437500] [Tid0x000004c0] [debug] <--[C25] DL_Rom_GetInfoAll
+[0000052] [14:30:17:453125] [Tid0x000004c0] [debug] -->[C26] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000053] [14:30:17:453125] [Tid0x000004c0] [debug] <--[C26] DL_Rom_SetEnableAttr
+[0000054] [14:30:17:453125] [Tid0x000004c0] [debug] -->[C27] DL_GetCount #./api/api.cpp (line:2710)
+[0000055] [14:30:17:453125] [Tid0x000004c0] [debug] <--[C27] DL_GetCount
+[0000056] [14:30:17:453125] [Tid0x000004c0] [debug] -->[C28] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000057] [14:30:17:453125] [Tid0x000004c0] [debug] <--[C28] DL_Rom_GetInfoAll
+[0000058] [14:30:17:468750] [Tid0x000004c0] [debug] -->[C29] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000059] [14:30:17:468750] [Tid0x000004c0] [debug] <--[C29] DL_Rom_SetEnableAttr
+[0000060] [14:30:17:468750] [Tid0x000004c0] [debug] -->[C30] DL_GetCount #./api/api.cpp (line:2710)
+[0000061] [14:30:17:468750] [Tid0x000004c0] [debug] <--[C30] DL_GetCount
+[0000062] [14:30:17:468750] [Tid0x000004c0] [debug] -->[C31] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000063] [14:30:17:468750] [Tid0x000004c0] [debug] <--[C31] DL_Rom_GetInfoAll
+[0000064] [14:30:17:468750] [Tid0x000004c0] [debug] -->[C32] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000065] [14:30:17:468750] [Tid0x000004c0] [debug] <--[C32] DL_Rom_SetEnableAttr
+[0000066] [14:30:17:468750] [Tid0x000004c0] [debug] -->[C33] DL_GetCount #./api/api.cpp (line:2710)
+[0000067] [14:30:17:468750] [Tid0x000004c0] [debug] <--[C33] DL_GetCount
+[0000068] [14:30:17:468750] [Tid0x000004c0] [debug] -->[C34] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000069] [14:30:17:468750] [Tid0x000004c0] [debug] <--[C34] DL_Rom_GetInfoAll
+[0000070] [14:30:17:484375] [Tid0x000004c0] [debug] -->[C35] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000071] [14:30:17:484375] [Tid0x000004c0] [debug] <--[C35] DL_Rom_SetEnableAttr
+[0000072] [14:30:17:484375] [Tid0x000004c0] [debug] -->[C36] DL_GetCount #./api/api.cpp (line:2710)
+[0000073] [14:30:17:484375] [Tid0x000004c0] [debug] <--[C36] DL_GetCount
+[0000074] [14:30:17:484375] [Tid0x000004c0] [debug] -->[C37] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000075] [14:30:17:484375] [Tid0x000004c0] [debug] <--[C37] DL_Rom_GetInfoAll
+[0000076] [14:30:17:484375] [Tid0x000004c0] [debug] -->[C38] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000077] [14:30:17:484375] [Tid0x000004c0] [debug] <--[C38] DL_Rom_SetEnableAttr
+[0000078] [14:30:17:484375] [Tid0x000004c0] [debug] -->[C39] DL_GetCount #./api/api.cpp (line:2710)
+[0000079] [14:30:17:484375] [Tid0x000004c0] [debug] <--[C39] DL_GetCount
+[0000080] [14:30:17:484375] [Tid0x000004c0] [debug] -->[C40] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000081] [14:30:17:484375] [Tid0x000004c0] [debug] <--[C40] DL_Rom_GetInfoAll
+[0000082] [14:30:17:500000] [Tid0x000004c0] [debug] -->[C41] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000083] [14:30:17:500000] [Tid0x000004c0] [debug] <--[C41] DL_Rom_SetEnableAttr
+[0000084] [14:30:17:500000] [Tid0x000004c0] [debug] -->[C42] DL_SetChecksumLevel #./api/api.cpp (line:2643)
+[0000085] [14:30:17:500000] [Tid0x000004c0] [debug] <--[C42] DL_SetChecksumLevel
+[0000086] [14:31:04:062500] [Tid0x00000384] [debug] -->[C43] DL_LoadScatter #./api/api.cpp (line:2601)
+[0000087] [14:31:04:109375] [Tid0x00000384] [debug] used lib version: 1
+[0000088] [14:31:04:109375] [Tid0x00000384] [debug] <--[C43] DL_LoadScatter
+[0000089] [14:31:04:109375] [Tid0x00000384] [debug] -->[C44] DL_AutoLoadRomImages #./api/api.cpp (line:2790)
+[0000090] [14:31:04:515625] [Tid0x00000384] [debug] <--[C44] DL_AutoLoadRomImages
+[0000091] [14:31:04:531250] [Tid0x000004c0] [debug] -->[C45] DL_GetCount #./api/api.cpp (line:2710)
+[0000092] [14:31:04:531250] [Tid0x000004c0] [debug] <--[C45] DL_GetCount
+[0000093] [14:31:04:531250] [Tid0x000004c0] [debug] -->[C46] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000094] [14:31:04:531250] [Tid0x000004c0] [debug] <--[C46] DL_Rom_GetInfoAll
+[0000095] [14:31:04:546875] [Tid0x000004c0] [debug] -->[C47] DL_GetScatterInfo #./api/api.cpp (line:2811)
+[0000096] [14:31:04:546875] [Tid0x000004c0] [debug] <--[C47] DL_GetScatterInfo
+[0000097] [14:31:04:546875] [Tid0x000004c0] [debug] -->[C48] DL_GetCount #./api/api.cpp (line:2710)
+[0000098] [14:31:04:546875] [Tid0x000004c0] [debug] <--[C48] DL_GetCount
+[0000099] [14:31:04:546875] [Tid0x000004c0] [debug] -->[C49] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000100] [14:31:04:546875] [Tid0x000004c0] [debug] <--[C49] DL_Rom_GetInfoAll
+[0000101] [14:31:04:562500] [Tid0x000004c0] [debug] -->[C50] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000102] [14:31:04:562500] [Tid0x000004c0] [debug] <--[C50] DL_Rom_SetEnableAttr
+[0000103] [14:31:04:562500] [Tid0x000004c0] [debug] -->[C51] DL_GetCount #./api/api.cpp (line:2710)
+[0000104] [14:31:04:562500] [Tid0x000004c0] [debug] <--[C51] DL_GetCount
+[0000105] [14:31:04:562500] [Tid0x000004c0] [debug] -->[C52] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000106] [14:31:04:562500] [Tid0x000004c0] [debug] <--[C52] DL_Rom_GetInfoAll
+[0000107] [14:31:04:578125] [Tid0x000004c0] [debug] -->[C53] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000108] [14:31:04:578125] [Tid0x000004c0] [debug] <--[C53] DL_Rom_SetEnableAttr
+[0000109] [14:31:04:578125] [Tid0x000004c0] [debug] -->[C54] DL_GetCount #./api/api.cpp (line:2710)
+[0000110] [14:31:04:578125] [Tid0x000004c0] [debug] <--[C54] DL_GetCount
+[0000111] [14:31:04:578125] [Tid0x000004c0] [debug] -->[C55] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000112] [14:31:04:578125] [Tid0x000004c0] [debug] <--[C55] DL_Rom_GetInfoAll
+[0000113] [14:31:04:593750] [Tid0x000004c0] [debug] -->[C56] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000114] [14:31:04:593750] [Tid0x000004c0] [debug] <--[C56] DL_Rom_SetEnableAttr
+[0000115] [14:31:04:593750] [Tid0x000004c0] [debug] -->[C57] DL_GetCount #./api/api.cpp (line:2710)
+[0000116] [14:31:04:593750] [Tid0x000004c0] [debug] <--[C57] DL_GetCount
+[0000117] [14:31:04:593750] [Tid0x000004c0] [debug] -->[C58] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000118] [14:31:04:593750] [Tid0x000004c0] [debug] <--[C58] DL_Rom_GetInfoAll
+[0000119] [14:31:04:593750] [Tid0x000004c0] [debug] -->[C59] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000120] [14:31:04:593750] [Tid0x000004c0] [debug] <--[C59] DL_Rom_SetEnableAttr
+[0000121] [14:31:04:593750] [Tid0x000004c0] [debug] -->[C60] DL_GetCount #./api/api.cpp (line:2710)
+[0000122] [14:31:04:593750] [Tid0x000004c0] [debug] <--[C60] DL_GetCount
+[0000123] [14:31:04:593750] [Tid0x000004c0] [debug] -->[C61] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000124] [14:31:04:593750] [Tid0x000004c0] [debug] <--[C61] DL_Rom_GetInfoAll
+[0000125] [14:31:04:609375] [Tid0x000004c0] [debug] -->[C62] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000126] [14:31:04:609375] [Tid0x000004c0] [debug] <--[C62] DL_Rom_SetEnableAttr
+[0000127] [14:31:04:609375] [Tid0x000004c0] [debug] -->[C63] DL_GetCount #./api/api.cpp (line:2710)
+[0000128] [14:31:04:609375] [Tid0x000004c0] [debug] <--[C63] DL_GetCount
+[0000129] [14:31:04:609375] [Tid0x000004c0] [debug] -->[C64] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000130] [14:31:04:609375] [Tid0x000004c0] [debug] <--[C64] DL_Rom_GetInfoAll
+[0000131] [14:31:04:625000] [Tid0x000004c0] [debug] -->[C65] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000132] [14:31:04:625000] [Tid0x000004c0] [debug] <--[C65] DL_Rom_SetEnableAttr
+[0000133] [14:31:04:625000] [Tid0x000004c0] [debug] -->[C66] DL_GetCount #./api/api.cpp (line:2710)
+[0000134] [14:31:04:625000] [Tid0x000004c0] [debug] <--[C66] DL_GetCount
+[0000135] [14:31:04:625000] [Tid0x000004c0] [debug] -->[C67] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000136] [14:31:04:625000] [Tid0x000004c0] [debug] <--[C67] DL_Rom_GetInfoAll
+[0000137] [14:31:04:640625] [Tid0x000004c0] [debug] -->[C68] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000138] [14:31:04:640625] [Tid0x000004c0] [debug] <--[C68] DL_Rom_SetEnableAttr
+[0000139] [14:31:04:640625] [Tid0x000004c0] [debug] -->[C69] DL_GetCount #./api/api.cpp (line:2710)
+[0000140] [14:31:04:640625] [Tid0x000004c0] [debug] <--[C69] DL_GetCount
+[0000141] [14:31:04:640625] [Tid0x000004c0] [debug] -->[C70] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000142] [14:31:04:640625] [Tid0x000004c0] [debug] <--[C70] DL_Rom_GetInfoAll
+[0000143] [14:31:04:640625] [Tid0x000004c0] [debug] -->[C71] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000144] [14:31:04:640625] [Tid0x000004c0] [debug] <--[C71] DL_Rom_SetEnableAttr
+[0000145] [14:31:04:640625] [Tid0x000004c0] [debug] -->[C72] DL_GetCount #./api/api.cpp (line:2710)
+[0000146] [14:31:04:640625] [Tid0x000004c0] [debug] <--[C72] DL_GetCount
+[0000147] [14:31:04:640625] [Tid0x000004c0] [debug] -->[C73] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000148] [14:31:04:640625] [Tid0x000004c0] [debug] <--[C73] DL_Rom_GetInfoAll
+[0000149] [14:31:04:656250] [Tid0x000004c0] [debug] -->[C74] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000150] [14:31:04:656250] [Tid0x000004c0] [debug] <--[C74] DL_Rom_SetEnableAttr
+[0000151] [14:31:04:656250] [Tid0x000004c0] [debug] -->[C75] DL_GetCount #./api/api.cpp (line:2710)
+[0000152] [14:31:04:656250] [Tid0x000004c0] [debug] <--[C75] DL_GetCount
+[0000153] [14:31:04:656250] [Tid0x000004c0] [debug] -->[C76] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000154] [14:31:04:656250] [Tid0x000004c0] [debug] <--[C76] DL_Rom_GetInfoAll
+[0000155] [14:31:04:671875] [Tid0x000004c0] [debug] -->[C77] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000156] [14:31:04:671875] [Tid0x000004c0] [debug] <--[C77] DL_Rom_SetEnableAttr
+[0000157] [14:31:04:671875] [Tid0x000004c0] [debug] -->[C78] DL_GetCount #./api/api.cpp (line:2710)
+[0000158] [14:31:04:671875] [Tid0x000004c0] [debug] <--[C78] DL_GetCount
+[0000159] [14:31:04:671875] [Tid0x000004c0] [debug] -->[C79] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000160] [14:31:04:671875] [Tid0x000004c0] [debug] <--[C79] DL_Rom_GetInfoAll
+[0000161] [14:31:04:687500] [Tid0x000004c0] [debug] -->[C80] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000162] [14:31:04:687500] [Tid0x000004c0] [debug] <--[C80] DL_Rom_SetEnableAttr
+[0000163] [14:31:04:687500] [Tid0x000004c0] [debug] -->[C81] DL_GetCount #./api/api.cpp (line:2710)
+[0000164] [14:31:04:687500] [Tid0x000004c0] [debug] <--[C81] DL_GetCount
+[0000165] [14:31:04:687500] [Tid0x000004c0] [debug] -->[C82] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000166] [14:31:04:687500] [Tid0x000004c0] [debug] <--[C82] DL_Rom_GetInfoAll
+[0000167] [14:31:04:703125] [Tid0x000004c0] [debug] -->[C83] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000168] [14:31:04:703125] [Tid0x000004c0] [debug] <--[C83] DL_Rom_SetEnableAttr
+[0000169] [14:31:04:703125] [Tid0x000004c0] [debug] -->[C84] DL_GetCount #./api/api.cpp (line:2710)
+[0000170] [14:31:04:703125] [Tid0x000004c0] [debug] <--[C84] DL_GetCount
+[0000171] [14:31:04:703125] [Tid0x000004c0] [debug] -->[C85] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000172] [14:31:04:703125] [Tid0x000004c0] [debug] <--[C85] DL_Rom_GetInfoAll
+[0000173] [14:31:04:718750] [Tid0x000004c0] [debug] -->[C86] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000174] [14:31:04:718750] [Tid0x000004c0] [debug] <--[C86] DL_Rom_SetEnableAttr
+[0000175] [14:31:04:718750] [Tid0x000004c0] [debug] -->[C87] DL_GetCount #./api/api.cpp (line:2710)
+[0000176] [14:31:04:718750] [Tid0x000004c0] [debug] <--[C87] DL_GetCount
+[0000177] [14:31:04:718750] [Tid0x000004c0] [debug] -->[C88] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000178] [14:31:04:718750] [Tid0x000004c0] [debug] <--[C88] DL_Rom_GetInfoAll
+[0000179] [14:31:04:718750] [Tid0x000004c0] [debug] -->[C89] DL_Rom_SetEnableAttr #./api/api.cpp (line:2929)
+[0000180] [14:31:04:718750] [Tid0x000004c0] [debug] <--[C89] DL_Rom_SetEnableAttr
+[0000181] [14:31:04:734375] [Tid0x000004c0] [debug] -->[C90] DL_SetChecksumLevel #./api/api.cpp (line:2643)
+[0000182] [14:31:04:734375] [Tid0x000004c0] [debug] <--[C90] DL_SetChecksumLevel
+[0000183] [14:31:06:078125] [Tid0x000004c0] [debug] -->[C91] DL_GetCount #./api/api.cpp (line:2710)
+[0000184] [14:31:06:078125] [Tid0x000004c0] [debug] <--[C91] DL_GetCount
+[0000185] [14:31:06:078125] [Tid0x000004c0] [debug] -->[C92] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000186] [14:31:06:078125] [Tid0x000004c0] [debug] <--[C92] DL_Rom_GetInfoAll
+[0000187] [14:31:06:093750] [Tid0x000004c0] [debug] -->[C93] DL_GetCount #./api/api.cpp (line:2710)
+[0000188] [14:31:06:093750] [Tid0x000004c0] [debug] <--[C93] DL_GetCount
+[0000189] [14:31:06:093750] [Tid0x000004c0] [debug] -->[C94] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000190] [14:31:06:093750] [Tid0x000004c0] [debug] <--[C94] DL_Rom_GetInfoAll
+[0000191] [14:31:16:500000] [Tid0x00000224] [debug] -->[C95] FlashTool_Connect_BROM_ByName #./api/api.cpp (line:2102)
+[0000192] [14:31:16:500000] [Tid0x00000224] [debug] -->[C96] FlashTool_Connect_BROM_Ex #./api/api.cpp (line:1862)
+[0000193] [14:31:16:500000] [Tid0x00000224] [debug] bCheckScatter: 1
+[0000194] [14:31:16:500000] [Tid0x00000224] [debug] have load scatter already
+[0000195] [14:31:16:500000] [Tid0x00000224] [debug] libversion 1
+[0000196] [14:31:16:703125] [Tid0x00000224] [debug] <--[C96] FlashTool_Connect_BROM_Ex
+[0000197] [14:31:16:703125] [Tid0x00000224] [debug] <--[C95] FlashTool_Connect_BROM_ByName
+[0000198] [14:31:16:703125] [Tid0x00000224] [debug] -->[C97] FlashTool_GetBootResult #./api/api.cpp (line:2114)
+[0000199] [14:31:16:703125] [Tid0x00000224] [debug] <--[C97] FlashTool_GetBootResult
+[0000200] [14:31:16:703125] [Tid0x00000224] [debug] -->[C98] FlashTool_Connect_Download_DA #./api/api.cpp (line:2134)
+[0000201] [14:31:16:703125] [Tid0x00000224] [debug] bCheckScatter: 1
+[0000202] [14:31:20:484375] [Tid0x00000224] [debug] <--[C98] FlashTool_Connect_Download_DA
+[0000203] [14:31:20:484375] [Tid0x00000224] [debug] -->[C99] FlashTool_CheckUSBStatus #./api/api.cpp (line:1140)
+[0000204] [14:31:20:484375] [Tid0x00000224] [debug] <--[C99] FlashTool_CheckUSBStatus
+[0000205] [14:31:20:484375] [Tid0x00000224] [debug] -->[C100] FlashTool_SetupUSBDL #./api/api.cpp (line:1101)
+[0000206] [14:31:20:484375] [Tid0x00000224] [debug] <--[C100] FlashTool_SetupUSBDL
+[0000207] [14:31:22:812500] [Tid0x00000224] [debug] -->[C101] FlashTool_ChangeCOM_Ex #./api/api.cpp (line:1079)
+[0000208] [14:31:22:828125] [Tid0x00000224] [debug] <--[C101] FlashTool_ChangeCOM_Ex
+[0000209] [14:31:22:828125] [Tid0x00000224] [debug] -->[C102] FlashTool_CheckUSBStatus #./api/api.cpp (line:1140)
+[0000210] [14:31:22:828125] [Tid0x00000224] [debug] <--[C102] FlashTool_CheckUSBStatus
+[0000211] [14:31:22:828125] [Tid0x00000224] [debug] -->[C103] FlashTool_GetReservedRomSize #./api/api.cpp (line:1663)
+[0000212] [14:31:22:828125] [Tid0x00000224] [debug] <--[C103] FlashTool_GetReservedRomSize
+[0000213] [14:31:22:828125] [Tid0x00000224] [debug] -->[C104] FlashTool_RomGetCount #./api/api.cpp (line:1688)
+[0000214] [14:31:22:828125] [Tid0x00000224] [debug] <--[C104] FlashTool_RomGetCount
+[0000215] [14:31:22:828125] [Tid0x00000224] [debug] -->[C105] FlashTool_RomGetInfoAll #./api/api.cpp (line:1705)
+[0000216] [14:31:22:828125] [Tid0x00000224] [debug] <--[C105] FlashTool_RomGetInfoAll
+[0000217] [14:31:22:828125] [Tid0x00000224] [debug] -->[C106] FlashTool_ReadPartitionCount #./api/api.cpp (line:1619)
+[0000218] [14:31:22:859375] [Tid0x00000224] [debug] <--[C106] FlashTool_ReadPartitionCount
+[0000219] [14:31:22:859375] [Tid0x00000224] [debug] -->[C107] FlashTool_ReadPartitionInfo #./api/api.cpp (line:1640)
+[0000220] [14:31:22:859375] [Tid0x00000224] [debug] <--[C107] FlashTool_ReadPartitionInfo
+[0000221] [14:31:22:859375] [Tid0x00000224] [debug] -->[C108] FlashTool_Download #./api/api.cpp (line:1286)
+[0000222] [14:32:57:218750] [Tid0x00000224] [debug] <--[C108] FlashTool_Download
+[0000223] [14:32:57:218750] [Tid0x00000224] [debug] -->[C109] DL_GetCount #./api/api.cpp (line:2710)
+[0000224] [14:32:57:218750] [Tid0x00000224] [debug] <--[C109] DL_GetCount
+[0000225] [14:32:57:218750] [Tid0x00000224] [debug] -->[C110] DL_Rom_GetInfoAll #./api/api.cpp (line:2875)
+[0000226] [14:32:57:218750] [Tid0x00000224] [debug] <--[C110] DL_Rom_GetInfoAll
+[0000227] [14:32:57:218750] [Tid0x00000224] [debug] -->[C111] FlashTool_Disconnect #./api/api.cpp (line:1019)
+[0000228] [14:32:57:250000] [Tid0x00000224] [debug] <--[C111] FlashTool_Disconnect
+[0000229] [14:40:48:265625] [Tid0x000004c0] [debug] -->[C112] DL_Rom_UnloadAll #./api/api.cpp (line:2918)
+[0000230] [14:40:48:265625] [Tid0x000004c0] [debug] <--[C112] DL_Rom_UnloadAll

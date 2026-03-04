@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+  <general>
+    <chip-name>MT6737M</chip-name>
+    <storage-type>EMMC</storage-type>
+    <download-agent>
+      MTK_AllInOne_DA_6737M_98736.bin
+    </download-agent>
+    <scatter>
+      MT6737M_Android_scatter.txt
+    </scatter>
+    <authentication>
+      auth_sv5_LenovoNamath.auth
+    </authentication>
+    <rom-list>
+      <rom index="0" enable="true">
+        preloader_wt98736b32.bin
+      </rom>
+    </rom-list>
+    <connection
+      type="BromUSB"
+      high-speed="false"
+      without-battery="false" />
+  </general>
+  <commands>
+    <efuse>
+      <common-ctrl
+        Disable_EMMC_boot="false"
+        Disable_NAND_boot="false"
+        Disable_NAND_boot_speedup="false"
+        USB_download_type="0"/>
+      <secure-ctrl
+        Enable_ACC="false"
+        Enable_ACK="false"
+        Enable_SBC="true"
+        Enable_SLA="false"
+        Enable_DAA="true"
+        Disable_JTAG="false"
+        Enable_Root_Cert="false"
+        Enable_SW_JTAG_CON="false"/>
+      <sbc-pub-key>
+        <pub-key-e>00010001</pub-key-e>
+        <pub-key-n>
+          a9b8200d85ed403c3375a85af9c9cc5406a3c93b7fb1236e23ed1fcb91202af2020ae64bb5f88f562095b6a7b9929299b9f3a49150da0b2e06e5b6575fccec13e8c4515831a45a64b458759c793b50ae841cc03870a018b15608662437e7db8128329370f4922bafce026b9182853ecb0abe49f8caedbe80a0bbe3f31fce633f9be9a51564f507c70aa6797616c2957cfb9c0685edd8a60b772d8c1707f794d91af29980481c024f7deddf1b0293330fb65a733dabeefc1cd9c08820098f58437ce365fadd40d30f4dc96ae77935ef85b886e6890716cd6d7a22476afec579b12496d13ef16a9676a29dcf646efb8baed383b8cbd602d12285635d50f2d6dd63
+        </pub-key-n>
+      </sbc-pub-key>
+      
+      <common-lock
+        com_ctrl_lock="false"
+        usb_id_lock="false"
+        spare_lock="false"/>
+      <secure-lock
+        sec_attr_lock="false"
+        ackey_lock="false"
+        sbc_pubk_hash_lock="false"/>
+      <usb-id vid="0000" pid="0000"/>  
+      <ac-key>112233445566778899AABBCCDDEEFFFF</ac-key>               
+      
+      <read-back
+        dir="."
+        name="efuse_dump.txt"
+        time-prefix="false"/>
+    </efuse>
+  </commands>
+</flashtool-config>

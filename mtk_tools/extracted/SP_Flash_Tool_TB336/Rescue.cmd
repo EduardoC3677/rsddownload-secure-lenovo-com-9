@@ -1,0 +1,1 @@
+SPFlashToolV6.exe -a da.auth -f %~dp0image\download_agent\flash.xml -c firmware-upgrade

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+  <general>
+    <chip-name>MT6580</chip-name>
+    <storage-type>EMMC</storage-type>
+    <download-agent>
+      DA_SWSEC_6580_98737_71604.bin
+    </download-agent>
+    <scatter>
+      MT6580_Android_scatter.txt
+    </scatter>
+    <authentication>
+      auth_sv5_LenovoWatson.auth
+    </authentication>
+    <rom-list>
+      <rom index="0" enable="true">
+        preloader_wt98737.bin
+      </rom>
+    </rom-list>
+    <connection
+      type="BromUSB"
+      high-speed="false"
+      without-battery="false" />
+  </general>
+  <commands>
+    <efuse>
+      <common-ctrl
+        Disable_EMMC_boot="false"
+        Disable_NAND_boot="false"
+        Disable_NAND_boot_speedup="false"
+        USB_download_type="0"/>
+      <secure-ctrl
+        Enable_ACC="false"
+        Enable_ACK="false"
+        Enable_SBC="true"
+        Enable_SLA="false"
+        Enable_DAA="true"
+        Disable_JTAG="false"
+        Enable_Root_Cert="false"
+        Enable_SW_JTAG_CON="false"/>
+      <sbc-pub-key>
+        <pub-key-e>00010001</pub-key-e>
+        <pub-key-n>
+          ded7ffe27f49a3daa92097ba2a6b1f80f0efa1b2a624f16772a2b8292c56c01d9426de40494468b49acbdaad02fd61cd2c23c2f84c6f91a37860f2167698d13929bb99fb756878333c99b4b4170ba56e5230482028a811b24d700688be16d4bc659c693af7ad2a2a2ac191c26227d747703438769fa8663e452d68d17df3daecf51d91830e3c3938260f07f06e54c2417b83a1420a14557fa1a2e5c9693f53b13746ab94add840af207f4cf6389de730ec17c3a102695c416facab0254137cde6d022c1cb1249e28cdc0654c50ad003657ffda2c8ffd9928c31516dba030791f34aafd95806e0f824842f99c1bd0d6b53883fe03df99a7c7a9c7928ad4dccb67
+        </pub-key-n>
+      </sbc-pub-key>
+      
+      <common-lock
+        com_ctrl_lock="false"
+        usb_id_lock="false"
+        spare_lock="false"/>
+      <secure-lock
+        sec_attr_lock="false"
+        ackey_lock="false"
+        sbc_pubk_hash_lock="false"/>
+      <usb-id vid="0000" pid="0000"/>  
+      <ac-key>112233445566778899AABBCCDDEEFFFF</ac-key>               
+      
+      <read-back
+        dir="."
+        name="efuse_dump.txt"
+        time-prefix="false"/>
+    </efuse>
+  </commands>
+</flashtool-config>

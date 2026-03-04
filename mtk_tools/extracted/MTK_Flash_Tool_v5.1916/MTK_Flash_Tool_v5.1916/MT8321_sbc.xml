@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+  <general>
+    <chip-name>MT6580</chip-name>
+    <storage-type>EMMC</storage-type>
+    <download-agent>
+      DA_SWSEC.bin
+    </download-agent>
+    <scatter>
+      MT6580_Android_scatter.txt
+    </scatter>
+    <rom-list>
+      <rom index="0" enable="true">
+        preloader_mt8321_GO.bin
+      </rom>
+    </rom-list>
+    <connection
+      type="BromUSB"
+      high-speed="false"
+      without-battery="false" />
+  </general>
+  <commands>
+    <efuse>
+      <secure-ctrl
+      	Enable_SW_JTAG_CON="true"
+        Enable_SBC="true" />
+   
+      
+      <sbc-pub-key>
+        <pub-key-e>00010001</pub-key-e>
+        <pub-key-n> bd7cc646693ce2eeeb7c0bdb205559bcf6d7f07a9942c76c219b54134d982112d9b06401d5fc958bef851c657be87a04c29fce50177f7df114bcdc8b960d870c1373dfcd3d46ade4b6b0d9837daedf3e1acabe8d31809eb565bdb194fb9569584f1f659d7616691cd7f3da839e82f0789790f2e6d0fd0df7857f0651f1fe08637a526bc3108345fa63744dd6b20341eed4818790c3b86096cb1af99d1a701843665f138a5137844d90797b052ae4209d9da3b4ed578ec0d1e0a95b0cf7325f068ae114d7acd553c91a5aa87844fd5284ca717f728379443a8f159a9266f93db9ba53ef7e5ec3a3d9f8611296221a456fae7de429271a508c7e13df668f022c39
+        </pub-key-n>
+      </sbc-pub-key>
+
+      <secure-lock
+        sec_attr_lock="true"
+        sbc_pubk_hash_lock="true" />
+      
+      <read-back
+        dir="."
+        name="efuse_dump.txt"
+        time-prefix="false" />
+    </efuse>
+  </commands>
+</flashtool-config>

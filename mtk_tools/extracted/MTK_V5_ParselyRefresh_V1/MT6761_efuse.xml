@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+  <general>
+    <chip-name>MT6761</chip-name>
+    <storage-type>EMMC</storage-type>
+    <download-agent>
+      MTK_AllInOne_DA.bin
+    </download-agent>
+    <scatter>
+      MT6761_Android_scatter.txt
+    </scatter>
+    <rom-list>
+      <rom index="0" enable="true">
+       preloader_tc422.bin
+      </rom>
+    </rom-list>
+    <connection
+      type="BromUSB"
+      high-speed="false"
+      without-battery="true"
+      da_log_level="Trace"/>
+  </general>
+  <commands>
+    <efuse>
+      <common-ctrl
+		Disable_UFS_boot="false"          
+        USB_download_type="0"
+	    Disable_EMMC_boot="false"/>
+        
+      <secure-ctrl
+	    Disable_DBGPORT_LOCK="false"
+	    Enable_SW_JTAG_CON="false"
+        Enable_ACC="false"
+        Enable_ACK="false"
+        Enable_SLA="false"
+        Enable_DAA="false"
+		Enable_SBC="true"
+        Disable_JTAG="false"/>
+         
+      <sbc-pub-key>
+	    <key-type>pss</key-type>
+        <pub-key-e>010001</pub-key-e>
+ 		<pub-key-n>
+		  db4fc13ad8b2a45c7aa3875c4600d9f1fe0fe057946583152b8c12cd378aab1058a3a41decee282ef676e551ce12494d278e58c8beef9006ed82535e1fff1d559784b6362f1ee7294c239d36496327e381eefa7b6a5b122fe45e6d648db5f32cbebcae1256e0cfc05bb1ca410f43f523b3cf43f41e256cd05aedceb41356e386b39735b131a5b8567dcf817908e57e0e72d3cf7d14f8d3bc7f505a243e809a6e6d915584a2b632cc29c52650a4c48959aae901f08ca42089f8ac9ffa772e1b42c2018a6136bf0129b96f5de21e7dac0443bdf1095001ab5fe5784db0fc9f91a7830e8cc2ba2a6981bd742a998b3f4115ee16bdb608d68422284d13bcc4c46431
+		</pub-key-n>
+      </sbc-pub-key>
+	  
+     <common-lock
+        com_ctrl_lock="false"
+        usb_id_lock="false"/>
+        
+      <secure-lock
+	    sec_msc_lock = "false"
+        sec_attr_lock="false"
+        ackey_lock="false"
+        sbc_pubk_hash_lock="false"/>
+        
+      <usb-id vid="0000" pid="0000"/> 
+	  
+	  <sec_msc
+        md1_sbc_en="false"
+        c2k_sbc_en="false" />
+	  
+	    <c_lock
+         c_ctrl1_lock="false" 
+         c_ctrl0_lock="false"
+  	     />
+		 
+          
+       <c_ctrl0>bbb</c_ctrl0>
+       <c_ctrl1>3bbb</c_ctrl1>
+
+            
+       <ac-key>112233445566778899AABBCCDDEEFFFF</ac-key> 
+	 	    
+      <read-back
+        dir="."
+        name="efuse_dump.txt"
+        time-prefix="false"/>
+    </efuse>
+  </commands>
+</flashtool-config>

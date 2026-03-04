@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6735</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>C:\Users\LMST\Desktop\SP_Flash_Tool_5.1652_M2\DA_SWSEC.bin</download-agent>
+        <scatter>C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\MT6735_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\preloader_hq8735_6t_b2b.bin</rom>
+            <rom index="6" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\lk-sign.bin</rom>
+            <rom index="8" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\boot-sign.img</rom>
+            <rom index="9" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\recovery-sign.img</rom>
+            <rom index="10" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\logo-sign.bin</rom>
+            <rom index="14" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\secro-sign.img</rom>
+            <rom index="16" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\trustzone-sign.bin</rom>
+            <rom index="17" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\trustzone-sign.bin</rom>
+            <rom index="21" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\system-sign.img</rom>
+            <rom index="22" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\cache-sign.img</rom>
+            <rom index="23" enable="true">C:\Users\LMST\Desktop\Work\3-LMSA\Rom\Tablet\TB3-X70\TB3-X70L_S000022_180116_ROW\TB3-X70L_S000022_180116_ROW_DCC\userdata-sign.img</rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Debug" timeout-count="3600000" com-port="" />
+        <checksum-level>none</checksum-level>
+    </general>
+    <commands>
+        <firmware-upgrade>
+            <scene>FIRMWARE_UPGRADE</scene>
+            <readback>
+                <physical-readback is-physical-readback="false" />
+            </readback>
+            <format validation="false" physical="false" erase-flag="NormalErase" auto-format="true" auto-format-flag="FormatExcept_BL" />
+            <da-download-all />
+            <write-memory>
+                <write-memory-item input-mode="FromFile" program-mode="PageOnly" addr-mode="LogicalAddress" address="0x000000001f600000" input-length="0x00000000" part-id="0"></write-memory-item>
+            </write-memory>
+        </firmware-upgrade>
+    </commands>
+</flashtool-config>

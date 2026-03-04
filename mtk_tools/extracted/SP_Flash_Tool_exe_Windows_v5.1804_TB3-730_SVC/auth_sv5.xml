@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<flashtool-config version="2.0"> 
+    <general> 
+        <chip-name>MT6735M</chip-name> 
+        <storage-type>EMMC</storage-type> 
+        <download-agent>DA_SWSEC_CRYPTO20.bin</download-agent> 
+        <authentication>auth_sv5.auth</authentication> 
+        <certification></certification> 
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" timeout-count="3600000" com-port="" /> 
+        <checksum-level>none</checksum-level> 
+    </general> 
+    <commands> 
+        <download-only> 
+            <da-download-all /> 
+        </download-only> 
+    </commands> 
+</flashtool-config> 

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6765</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent></download-agent>
+        <scatter>D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\MT6765_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\preloader_p161m.bin</rom>
+            <rom index="3" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\recovery.img</rom>
+            <rom index="17" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\md1img-verified.img</rom>
+            <rom index="18" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\spmfw-verified.img</rom>
+            <rom index="19" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\scp-verified.img</rom>
+            <rom index="20" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\scp-verified.img</rom>
+            <rom index="21" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\sspm-verified.img</rom>
+            <rom index="22" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\sspm-verified.img</rom>
+            <rom index="28" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\lk-verified.img</rom>
+            <rom index="29" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\lk-verified.img</rom>
+            <rom index="30" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\boot.img</rom>
+            <rom index="31" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\logo-verified.bin</rom>
+            <rom index="32" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\logo-verified.bin</rom>
+            <rom index="33" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\dtbo-verified.img</rom>
+            <rom index="34" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\tee-verified.img</rom>
+            <rom index="35" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\tee-verified.img</rom>
+            <rom index="36" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\vendor.img</rom>
+            <rom index="37" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\system.img</rom>
+            <rom index="38" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\vbmeta.img</rom>
+            <rom index="39" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\cache.img</rom>
+            <rom index="40" enable="true">D:\workspace\MTK\arm_software\P160AN_PVT_9.0_LA_58.00-00_FLASH\userdata.img</rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" da_log_channel="UART" timeout-count="3600000" com-port="" />
+        <checksum-level>none</checksum-level>
+        <!--log_on: log switch, enable log if true, otherwise false;
+			log_path: the directory in which the log files has been stored;
+			clean_hours: the time setting to delete log files regularly, the unit is hours.-->
+        <log-info log_on="true" log_path="C:\ProgramData\SP_FT_Logs" clean_hours="744" />
+    </general>
+    <commands>
+        <download-only>
+            <da-download-all />
+        </download-only>
+    </commands>
+</flashtool-config>

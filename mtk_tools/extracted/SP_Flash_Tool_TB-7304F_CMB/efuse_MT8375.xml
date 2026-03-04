@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6737M</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>.\MTK_AllInOne_DA.bin</download-agent>
+        <scatter></scatter>
+        <rom-list></rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" timeout-count="3600000" com-port="" />
+    </general>
+    <commands>
+      <efuse>
+        <common-ctrl Disable_EMMC_boot="false" Disable_NAND_boot="false" USB_download_type="0"/>
+        <secure-ctrl Enable_ACC="false" Enable_ACK="false" Enable_SBC="true"
+        Enable_SLA="false" Enable_DAA="true" Enable_SW_JTAG_CON="false" Disable_JTAG="false"/>
+        <sbc-pub-key>
+            <pub-key-e>00010001</pub-key-e>
+            <pub-key-n>B1D0BFA576CF94EA196D84477DB59EE514336414E293D602086C3A8E8FE3DA0CDF9089F8AD3C35460069DE01EFE99887B9FA1DCF25A6527352A84887D61AB8B040BFBDDBB86E546BD4BC3998EC720BA8C446F416120FDC35D5DC04B77C3893D4C7BEBAF2A17023C378A64574CAE466F911AA320E12B55DA48D61FF31D7CECECBAAEE4CCD11CBCF6F1CC111C7C4070790635A20658E95C9633A6F1CD9DB196CC97D33F221DCC0319C5AE1CB5CC8EBCDEDE70EBC19AA8130F9A7ED9625F2114EDAD07A610BCC842527DDA0866880E255955FA98EE66B94651B4D8194791303A83DAC45DB3243CF3B9DA4172FC38FE87278E7E4D9902249E86C1721E77A9D1890C9</pub-key-n>
+        </sbc-pub-key>
+        <common-lock com_ctrl_lock="false" usb_id_lock="false" spare_lock="false"/>
+        <secure-lock sec_attr_lock="false" ackey_lock="false" sbc_pubk_hash_lock="false"/>
+        <usb-id vid="0000" pid= "0000"/>
+        <read-back dir="." name="efuse_dump.txt" time-prefix="false"/>
+      </efuse>
+    </commands>
+</flashtool-config>

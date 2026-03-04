@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT8167</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>.\MTK_AllInOne_DA.bin</download-agent>
+        <scatter>.\efuse_scatter.txt</scatter>
+        <authentication>.\auth_sv5.auth</authentication>
+        <rom-list>
+            <rom index="0" enable="true">
+                .\preloader_hq8167_tb_n.bin
+            </rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" timeout-count="3600000" com-port="" />
+    </general>
+    <commands>
+      <efuse>
+        <common-ctrl Disable_EMMC_boot="false" Disable_NAND_boot="false" USB_download_type="0"/>
+        <secure-ctrl Enable_ACC="false" Enable_ACK="false" Enable_SBC="true"
+        Enable_SLA="false" Enable_DAA="true" Enable_SW_JTAG_CON="false" Disable_JTAG="false"/>
+        <sbc-pub-key>
+            <pub-key-e>00010001</pub-key-e>
+            <pub-key-n>C20789DD3547A05E4BE8EEC99CC24300E64040ED225C28C0BE30AE0E28559F883400B53499BE2ED746459E27E8645799C95178438EBA441D8E61045B399D8BFCD65B5463C43127C0C9F6C0BC20C3C0E5E3C073B1153DE65CCEDFC994825D7F22D456EA904B063080D80D1C7CE0FDBDCF7C0D43BBFE3226358C1CFD97C45CCA178556C022E3A05495F4105585EFD23767CD5DB1E3935C019EFF814AD2F4B4D875A55A2B283CD61C21606670EAE9AB686EC526B0B570807DD5C73966DA7D3181B63C97A259745DAFAF77F0CA7FF27C7F3023E516C1DF3D0419DF24B7035306CBE0D062164F38856D21B462FAE1758075D8A933F5FBE5F73A0A9ACE5BC4891017ED</pub-key-n>
+        </sbc-pub-key>
+        <common-lock com_ctrl_lock="false" usb_id_lock="false" spare_lock="false"/>
+        <secure-lock sec_attr_lock="true" ackey_lock="false" sbc_pubk_hash_lock="true"/>
+        <usb-id vid="0000" pid= "0000"/>
+        <read-back dir="." name="efuse_dump.txt" time-prefix="false"/>
+      </efuse>
+    </commands>
+</flashtool-config>

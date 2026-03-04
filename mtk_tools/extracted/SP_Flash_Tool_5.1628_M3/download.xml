@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6737M</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>C:\Work\2016.04.13_SW DFS_From Allen\Petanque\01. Image &amp; Flash tool\新新给的加密 刷机工具\SP_Flash_Tool_exe_Windows_v5.1628.00.000\DA_SWSEC_6737m_98736_71604.bin</download-agent>
+        <scatter>C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\MT6737M_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\preloader_wt98736b32_ba1.bin</rom>
+            <rom index="6" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\lk-sign.bin</rom>
+            <rom index="8" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\boot-sign.img</rom>
+            <rom index="9" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\recovery-sign.img</rom>
+            <rom index="10" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\logo-sign.bin</rom>
+            <rom index="14" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\secro-sign.img</rom>
+            <rom index="16" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\trustzone-sign.bin</rom>
+            <rom index="17" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\trustzone-sign.bin</rom>
+            <rom index="18" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\efuse-sign.img</rom>
+            <rom index="22" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\system-sign.img</rom>
+            <rom index="23" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\cache-sign.img</rom>
+            <rom index="24" enable="true">C:\Work\2016.04.13_SW DFS_From Allen\Petanque\00. SW\00. Image Release\Europe_Retail_XT1754_NRD90M.040_CFC.xml\software\userdata-sign.img</rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" timeout-count="3600000" com-port="" />
+        <checksum-level>none</checksum-level>
+    </general>
+    <commands>
+        <download-only>
+            <da-download-all />
+        </download-only>
+    </commands>
+</flashtool-config>

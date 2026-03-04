@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+  <general>
+    <chip-name>MT6785</chip-name>
+    <storage-type>UFS</storage-type>
+    <download-agent>
+      MTK_AllInOne_DA_p11.bin
+    </download-agent>
+    <scatter>
+      MT6785_Android_scatter.txt
+    </scatter>
+    <rom-list>
+      <rom index="0" enable="true">
+        preloader_p11.bin
+      </rom>
+    </rom-list>
+    <connection
+      type="BromUSB"
+      high-speed="false"
+      power="true"
+      da_log_level="Info"
+	  da_log_channel="UART" 
+	/>
+  </general>
+  <commands>
+    <efuse>
+      <common-ctrl
+		Disable_UFS_boot="false"          
+        USB_download_type="0"
+	    Disable_EMMC_boot="false"/>
+        
+      <secure-ctrl
+	    Disable_DBGPORT_LOCK="false"
+	    Enable_SW_JTAG_CON="false"
+        Enable_ACC="false"
+        Enable_ACK="false"
+        Enable_SLA="false"
+        Enable_DAA="true"
+        Enable_SBC="true"
+        Disable_JTAG="false" />
+      <sbc-pub-key>
+	    <key-type>pss</key-type>
+        <pub-key-e>010001</pub-key-e>
+        <pub-key-n>
+          B33C22D661D16A75A0763C366EE7F4C87BCF3B36E9DBDEE1FD68E66B35F7D50F06C1A2ABC811E9BEC2CF51F2EE4DD44EE4E774F91521E49FCF3251638122E944BB8D919D8650FE7B9216CBC3BB67A1262C208816040B2E1AF8F2AB4CAD152661064504BF74DA6E88582A7110CF0DEE9FC5A2F9DAA11675C19ED5FA0A1619AF416B2C03B7E6B94F7DF329D0B52075C22F067BA90503BA63942AB507EC0800190F6CEC1363E183EC37394B8223F51F3540788622CD4DA675B63332105565A2B9378378BDA5029CC3EAFC99E4162409FE76824C60696A96AEC2A6AE06819D5F8706AA876AE2BFD5075129371BC526AFEA1BD4FFD50E50FDB6328CFAEA21CBA060D9      </pub-key-n>
+      </sbc-pub-key> 
+        
+     <common-lock
+        com_ctrl_lock="false"
+        usb_id_lock="false" />
+      <secure-lock
+        sec_msc_lock="false"
+        sec_attr_lock="false"
+        ackey_lock="false"
+        sbc_pubk_hash_lock="false"/>
+        
+      <usb-id vid="0000" pid="0000"/> 
+	  
+	  <sec_msc
+        md1_sbc_en="false"
+        c2k_sbc_en="false" />
+	 	    
+      <read-back
+        dir="."
+        name="efuse_dump.txt"
+        time-prefix="false" />
+    </efuse>
+  </commands>
+</flashtool-config>

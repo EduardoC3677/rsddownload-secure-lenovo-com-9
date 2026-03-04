@@ -1,0 +1,30 @@
+========== Efuse Common Setting ==========
+emmc_boot_dis = off
+nand_boot_dis = off
+nand_boot_speedup_dis = off
+pid_vid_custom_en = off
+usbdl_type = 0
+
+========== Efuse Secure Setting ==========
+acc_en = off
+sbc_en = on
+daa_en = on
+sla_en = off
+ack_en = off
+jtag_dis = off
+jtag_sw_con = off
+rom_cmd_dis = off
+dbgport_lock_dis = off
+ac_key = 44332211 88776655 CCBBAA99 FFFFEEDD 
+sbc_pub_key_hash = C188A128 6F84DB84 49F1BD94 79EB4350 4012AB5E EB3B5597 CAA9F1F7 4EE84745 
+
+========== Efuse Lock Setting ==========
+common_ctrl_lock = off
+usb_id_lock = off
+spare_lock = off
+sec_ctrl_lock = off
+ackey_lock = off
+sbc_pubk_hash_lock = off
+
+==========Efuse Extra Setting =======
+

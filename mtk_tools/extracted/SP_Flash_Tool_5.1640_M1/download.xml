@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6737M</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>C:\A_MyWork\DFS\AndyRow\SP_Flash_Tool_exe_Windows_v5.1640.00.000\MTK_AllInOne_DA.bin</download-agent>
+        <scatter>C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\MT6737M_Android_scatter.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\preloader_woods.bin</rom>
+            <rom index="6" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\lk.bin</rom>
+            <rom index="8" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\boot.img</rom>
+            <rom index="9" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\recovery.img</rom>
+            <rom index="10" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\logo.bin</rom>
+            <rom index="14" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\secro.img</rom>
+            <rom index="16" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\trustzone.bin</rom>
+            <rom index="17" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\trustzone.bin</rom>
+            <rom index="25" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\oem.img</rom>
+            <rom index="26" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\system.img</rom>
+            <rom index="27" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\cache.img</rom>
+            <rom index="28" enable="true">C:\A_MyWork\DFS\AndyRow\SW\woods_oem_user_7.1.1_NMA26.13_13_release-keys_oem\userdata.img</rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" timeout-count="3600000" com-port="" />
+        <checksum-level>both</checksum-level>
+    </general>
+    <commands>
+        <download-only>
+            <da-download-all />
+        </download-only>
+    </commands>
+</flashtool-config>
